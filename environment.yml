@@ -1,0 +1,19 @@
+name: multiplex-network
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - pandas
+  - statsmodels
+  - networkx
+  - matplotlib
+  - seaborn
+  - jupyter
+  - ipykernel
+  - tqdm
+  - pip
+  - pip:
+    - pandas-datareader
