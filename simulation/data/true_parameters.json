@@ -1,0 +1,41 @@
+{
+  "delta": [
+    0.5,
+    0.3,
+    0.2
+  ],
+  "rho": [
+    0.3,
+    0.25,
+    0.35,
+    0.2,
+    0.15
+  ],
+  "beta": [
+    1.0,
+    0.8,
+    1.2,
+    0.9,
+    0.7
+  ],
+  "sigma_eta": [
+    0.01,
+    0.012,
+    0.015,
+    0.011,
+    0.009
+  ],
+  "layer_names": [
+    "volatility",
+    "caviar_var",
+    "returns"
+  ],
+  "layer_columns": {
+    "volatility": "volatility",
+    "caviar_var": "caviar_var",
+    "returns": "r_now"
+  },
+  "W_vol_density": 0.8,
+  "W_tail_density": 0.5,
+  "W_ret_density": 0.3
+}

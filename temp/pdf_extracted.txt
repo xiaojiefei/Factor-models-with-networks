@@ -1,0 +1,3500 @@
+PDF总页数: 47
+============================================================
+
+
+=== 第1页 ===
+Economic Modelling
+ 
+Risk aggregation, evolution, and contagion of different dimensions among industries in
+China: based on coupled network analysis
+--Manuscript Draft--
+ 
+Manuscript Number:
+ECMODE-D-26-00256
+Article Type:
+Full Length Article
+Section/Category:
+Empirical Research: Micro/Finance/Other
+Keywords:
+Risk contagion;  Multidimensional coupled networks;  Dual-track transmission;  Supply
+chain;  Financial leverage;  Systemic risk
+Abstract:
+Does inter-industry risk contagion in China operate through a single channel? We
+argue it does not. Traditional models often mix supply-chain transmission with financial
+leverage amplification. Using a five-dimensional coupled network framework across 31
+Chinese industries from 2007 to 2023, we document a dual-track mechanism
+supported by the near-zero correlation between price and tail risks. Our results show
+that the dominant contagion channel switches depending on the market regime: (1)
+The entity-driven channel (measured by price risk) functions as a structural backbone.
+It reflects continuous supply-chain transmission and maintains stable dominance
+during both normal periods and real-economy shocks (e.g., trade friction), with
+technology sectors acting as risk absorbers; (2) The financial-driven channel
+(measured by tail risk) is crisis activated. Typically dormant, it erupts explosively during
+leverage-fueled crises (e.g., the 2015 crash), characterized by bidirectional
+amplification loops and the shift of non-bank financial institutions to core spillover roles.
+Mechanistic analysis reveals that this financial fragility is rooted in a structural “finance-
+property closed loop”, where economic financialization and real estate dependence
+disproportionately amplify tail risk contagion. Consequently, effective regulation
+demands a dual-track approach: routine surveillance for supply-chain risks and
+preemptive measures for leverage-driven financial contagion.
+Powered by Editorial Manager® and ProduXion Manager® from Aries Systems Corporation
+
+
+
+=== 第2页 ===
+ 
+1 
+ 
+ 
+This study explores the dual-track risk contagion mechanisms across industries. 
+ 
+Crisis type determines which channel activates. 
+ 
+Entity-driven channel maintains stable as a structural backbone via supply-chain. 
+ 
+Financial-driven channel remains dormant but erupts during leverage-fueled crises. 
+ 
+This financial fragility is rooted in a structural “finance-property closed loop”. 
+Highlights
+
+
+
+=== 第3页 ===
+ 
+1 
+Risk aggregation, evolution, and contagion of different 
+dimensions among industries in China: based on 
+coupled network analysis 
+ 
+Abstract: Does inter-industry risk contagion in China operate through a single channel? We 
+argue it does not. Traditional models often mix supply-chain transmission with financial leverage 
+amplification. Using a five-dimensional coupled network framework across 31 Chinese industries 
+from 2007 to 2023, we document a dual-track mechanism supported by the near-zero correlation 
+between price and tail risks. Our results show that the dominant contagion channel switches 
+depending on the market regime: (1) The entity-driven channel (measured by price risk) functions 
+as a structural backbone. It reflects continuous supply-chain transmission and maintains stable 
+dominance during both normal periods and real-economy shocks (e.g., trade friction), with 
+technology sectors acting as risk absorbers; (2) The financial-driven channel (measured by tail risk) 
+is crisis activated. Typically dormant, it erupts explosively during leverage-fueled crises (e.g., the 
+2015 crash), characterized by bidirectional amplification loops and the shift of non-bank financial 
+institutions to core spillover roles. Mechanistic analysis reveals that this financial fragility is rooted 
+in a structural “finance-property closed loop”, where economic financialization and real estate 
+dependence disproportionately amplify tail risk contagion. Consequently, effective regulation 
+demands a dual-track approach: routine surveillance for supply-chain risks and preemptive 
+measures for leverage-driven financial contagion. 
+Keywords: Risk contagion; Multidimensional coupled networks; Dual-track transmission; 
+Supply chain; Financial leverage; Systemic risk 
+ 
+1. Introduction 
+Does inter-industry risk contagion in China flow through a single channel? We argue it does 
+not. Consider two typical shocks: a surge in production costs for a steel manufacturer (a real-
+economy shock) versus a leverage collapse in a securities firm (a financial-sector shock). The former 
+transmits primarily through supply chains, whereas the latter spreads via financial leverage. 
+However, traditional risk contagion models, often based on single-dimensional frameworks like 
+volatility spillovers (Diebold and Yılmaz, 2014), tend to mix these distinct mechanisms. This 
+overlooks a fundamental empirical reality: distinct risk dimensions—specifically price changes 
+versus tail events—can be statistically orthogonal and operate through different network structures. 
+Treating these dimensions as interchangeable fails to capture the heterogeneous nature of systemic 
+risk, posing challenges for risk management in emerging markets where the divergence between 
+real-economy and financial-sector shocks is particularly pronounced. 
+As the world’s second-largest economy and a representative emerging capital market, China 
+exhibits unique institutional features that require a tailored analytical framework. First, China’s 
+ongoing transition from a bank-dominated system to a multi-tiered capital market has diversified 
+Manuscript (without Author Details)
+Click here to view linked References
+
+
+
+=== 第4页 ===
+ 
+2 
+cross-sector risk contagion channels while often obscuring their specific pathways (Carpenter et al., 
+2021). Second, the policy-driven economic paradigm links industrial policies directly with market 
+behaviors, creating complex risk transmission patterns across sectors (Zhou et al., 2025). Third, 
+structural constraints, such as the dominance of retail investor (over 60% market participation), 
+uneven information disclosure quality, and underdeveloped derivatives markets, amplify the 
+asymmetry of risk propagation. These characteristics make China an ideal laboratory to investigate 
+how different risk dimensions operate through distinct channels, offering insights with both regional 
+and global implications given China’s systemic spillover potential in Asia’s financial connectivity 
+(Glick and Hutchison, 2013; Morelli and Vioto, 2020). 
+Our central thesis is that inter-industry risk contagion in China operates through two 
+fundamentally distinct tracks. The first is a structural, entity-driven channel, measured by price risk, 
+which continuously transmits shocks via supply chains. The second is a financial-driven channel, 
+measured by tail risk. This channel typically remains dormant during normal periods but becomes 
+the dominant force during systemic crises. We argue that these two channels differ significantly in 
+their timing, network structure, and economic sensitivity. Specifically, the entity-driven channel 
+reflects the steady transmission of costs and demand along production networks. In contrast, the 
+financial-driven channel is triggered by extreme events, such as the 2015 stock market crash, driven 
+by leverage unwinding, liquidity freezes, and market panic. 
+To empirically disentangle these dual racks, we address three limitations in existing literature. 
+First, prior studies mainly focus on risk contagion within financial sectors (Nguyen et al., 2020) or 
+across national stock markets (Abuzayed et al., 2021). This leaves a gap in understanding the 
+spillover mechanisms between the financial sector and the real economy. Given the close link 
+between financial market volatility and real economic performance, coupled with risk transmission 
+through trade networks (Acemoglu et al., 2012), the analysis must extend beyond financial 
+subsectors. To address this, we constructed a comprehensive dataset covering 31 sectors in China, 
+spanning both financial industries (such as banking and non-bank finance) and real-economy sectors 
+(such as manufacturing and technology), to systematically investigate these cross-sector risk 
+transmission chains. 
+Second, few studies combine dynamic and static perspectives to characterize how risk 
+contagion evolves over time, especially during market transitions. Capturing this temporal variation 
+requires a framework that can identify both persistent structural patterns and sudden, crisis-specific 
+dynamics. Therefore, we implement a dual strategy: (1) a dynamic analysis using rolling-window 
+networks to track the continuous evolution of risk contagion from 2007 to 2023, revealing how the 
+dominance of risk dimensions shifts; and (2) a static analysis focusing on five key historical 
+periods—such as the global financial crisis and the China-US trade friction—to isolate specific 
+contagion patterns through case studies. 
+Third, existing network approaches often rely on linear frameworks and traditional Granger 
+causality tests. These methods struggle to capture the nonlinear characteristics, structural breaks, 
+and asymmetric dependence patterns inherent in financial systems (Shahzad et al., 2018; Chen and 
+Sun, 2024). Moreover, traditional unidimensional frameworks based on volatility or correlation 
+metrics (Diebold and Yılmaz, 2014) fail to capture how transmission mechanisms diverge across 
+different risk dimensions during extreme events. 
+
+
+
+=== 第5页 ===
+ 
+3 
+To overcome these limitations, we develop a five-dimensional risk framework integrating price 
+risk, volatility risk, asymmetric risk, extreme risk, and tail risk. Our approach involves three key 
+steps: (1) using multivariate nonlinear Granger causality tests with a leave-one-out (LOO) approach  
+to construct distinct subnetworks for each risk dimension (Hué et al., 2019); (2) applying network 
+coupling methods to estimate time-varying weights that quantify the dominance of each dimension 
+in driving systemic risk (Bonaccolto et al., 2019; Billio et al., 2023); and (3) calculating edge 
+uniqueness to identify contagion paths specific to a single dimension (Musmeci et al., 2017). This 
+framework enables us to test our central hypothesis: if the two channels are distinct, the price risk 
+network (entity channel) should show persistently high uniqueness, while the tail risk network 
+(financial channel) should exhibit explosive surges in uniqueness and influence only during crises. 
+Our empirical findings support the dual-track hypothesis through three layers of evidence. First, 
+dynamic network analysis establishes the temporal separation between the two channels. By 
+decomposing the network, we find a fundamental distinction: Price risk networks (the entity channel) 
+exhibit persistently high uniqueness and stable coupling weights across all periods. This confirms 
+that supply-chain transmission operates continuously as a structural backbone. In contrast, tail risk 
+networks (the financial channel) are crisis-specific. Their uniqueness and coupling weights are low 
+during tranquil periods but surge explosively during the 2008 financial crisis and the 2015 stock 
+market crash. Sectoral data supports this: cyclical industries maintain a stable risk contribution (25-
+35%), while the financial sector’s contribution spikes (>40%) only during crises. Notably, during 
+the COVID-19 pandemic, while tail risk uniqueness rose, its dominance (weight) remained 
+moderate, confirming the pandemic as primarily a supply-chain shock rather than a leverage crisis. 
+Second, case studies validate that shock origin determines which channel activates. We analyze 
+two contrasting periods. The China-US trade friction (2018-2020) represents a typical entity-driven 
+shock. Risk propagated one-way through supply chains, where technology and export-oriented 
+sectors acted as a "risk sink," accumulating stress transmitted from upstream industries due to direct 
+trade restrictions, while tail risk remained subdued. Network topology during this period reflects 
+precise, industry-specific transmission along production linkages—distinctly different from 
+systemic financial contagion patterns. Conversely, the 2015 stock market crash represents a 
+financial-driven shock fueled by excessive leverage. Here, tail risk became overwhelmingly 
+dominant. Non-bank financial institutions shifted from peripheral roles to become core risk 
+spreaders, and the roles of the real sectors are fragmented. This comparative analysis demonstrates 
+that transmission channels are not static network properties but dynamically activated depending on 
+whether shocks originate from real-economy disruptions or financial-system instabilities. 
+Third, mechanistic analysis identifies why the financial channel is so fragile. Having 
+established that entity-driven and financial-driven channels exhibit distinct patterns, we investigate 
+what macroeconomic factors render the financial channel explosively fragile during crises. 
+Controlling for network effects, we find that economic financialization and real estate prosperity 
+significantly amplify contagion intensity. Our analysis suggests these factors specifically fuel the 
+financial-driven channel rather than the entity-driven one. This is evidenced by the asymmetry 
+between periods: during the 2015 crash, high financialization levels coincided with the explosive 
+activation of tail risk and the dominance of non-bank financial institutions. Conversely, during the 
+trade friction period, these macro-financial vulnerabilities remained dormant, and risk followed 
+
+
+
+=== 第6页 ===
+ 
+4 
+supply chains. This vulnerability stems from a structural "finance-property closed loop". High 
+financialization concentrates leverage in shadow banking, while real estate credit links property 
+cycles to systemic stability. Once triggered by panic or deleveraging, this loop acts as an amplifier, 
+igniting the explosive contagion observed in our tail risk networks. In contrast, the entity-driven 
+channel operates through physical production linkages. It lacks this leverage-based amplification 
+mechanism, which explains why it maintains structural stability even when financial risks erupt. 
+These findings have profound implications for financial regulation and systemic risk 
+prevention in emerging markets. Our evidence suggests that effective risk management demands a 
+dual-track regulatory approach tailored to the distinct mechanisms of each channel: (1) For the 
+entity-driven channel, policymakers should establish supply-chain-based early-warning systems,  
+leveraging industry price indices to monitor structural and persistent risk transmission—a task of 
+routine surveillance; (2) For the financial-driven channel, regulators must prioritize macroprudential 
+policies targeting financial leverage and real estate financing to preempt the activation of tail risk 
+contagion—a critical focus for crisis prevention. Ultimately, single-track regulatory frameworks 
+that treat all risk dimensions equivalently will prove inadequate in addressing the heterogeneous 
+nature of systemic risk in complex, interconnected financial systems. 
+The remainder of this paper is organized as follows. Section 2 reviews the literature on financial 
+risk contagion, focusing on risk carrier, contagion dimensions, and identification methods. Section 
+3 details the dataset and the multidimensional network methodology. Section 4 presents the 
+empirical results, including dynamic network evolution, static case studies, and mechanistic analysis. 
+Finally, Section 5 concludes the paper with policy implications. 
+2. Literature review 
+This paper is closely associated with the study of financial risk, particularly the application of 
+complex networks to the analysis of financial risk contagion. By categorizing risk carriers, 
+contagion dimensions, and identification methodologies, the existing literature has conducted a 
+systematic investigation into financial risk contagion. 
+From the perspective of risk carriers, most literature focuses on the contagion of financial risks 
+in transnational stock markets. Risk indicators are constructed by using the return data of broad-
+based stock indexes of various countries in different periods, and risk transmission models are 
+designed to analyze the transnational contagion mechanism of systemic risks, and the relationship 
+between financial risk contagion channels and economic states is studied. For example, the risk 
+information transmission mode under special periods such as the international financial crisis and 
+the COVID-19 pandemic (Abuzayed et al., 2021). Some studies note the complexity of the 
+composition of global financial markets and believe that the cross-market and cross-asset 
+transmission path should also be included as an important factor affecting the stability of a country’s 
+financial market (Huang and Liu, 2023). However, financial risks will not only be transmitted across 
+regions and markets, but there is a more refined risk aggregation and contagion mechanism at the 
+medium and micro levels of the industry (Yao and Jiang, 2025). Risk events in a single industry 
+have strong externalities, and the chain reaction of risk contagion between industries will lead to the 
+outbreak of systemic risks (Acemoglu et al., 2012). Especially in the financial market, investors’ 
+
+
+
+=== 第7页 ===
+ 
+5 
+irrational imitation behavior may trigger market panic, expand the impact intensity of heterogeneous 
+shocks, and form cross-sector and cross-industry financial risk contagion (Avery and Zemsky, 1998). 
+However, a large number of existing studies mostly focus on risk contagion among sub-
+industries of the financial sector, such as the exploration of risk contagion among different banks, 
+securities brokers, and insurance companies (Yang et al., 2019; Zhao et al., 2025). These studies 
+believe that the risks in the financial industry were the root cause of global risks, but did not include 
+the real economy industry or the financial industry in the research scope. Different sectors can exert 
+influence through balance sheet channels, especially between the real and financial sectors. 
+Specifically, when a single entity or industry is faced with a crisis, enterprises will sell assets in a 
+concentrated manner to ensure liquidity and cause a sharp depreciation of related assets, thus leading 
+to a contraction of balance sheets within the industry (Carvalho, 2015). The decline in the value of 
+mortgage assets will further aggravate the vulnerability of the financial sector; thus, the transmission 
+path of risks in the real economy to the financial sector is formed (Giannetti and Saidi, 2019). 
+Especially in recent years, due to the intensified changes in the international situation and the 
+frequent occurrence of public emergencies, the supply relationship of the industrial chain between 
+industries is extremely vulnerable to impact, which leads to the rapid spread of extreme risks in 
+individual industries to the financial market and the real economy in a short period. This necessitates 
+adopting cross-industry risk contagion as the focal point, integrating real-economy sectors and 
+financial industries into a unified framework to more comprehensively and precisely characterize 
+risk transmission mechanisms in markets. 
+From the perspective of contagion dimensions, traditional financial risk measurement 
+primarily focuses on the mean and volatility of asset returns, namely the first and second moments. 
+By investigating correlations between the first and second moments across assets, researchers 
+analyze contagion pathways of financial risks. For instance, Asgharian and Nossman (2011) 
+employed a stochastic volatility model to study risk spillover mechanisms from the U.S. stock 
+market to European stock markets through the second-moment dimension. Yang and Zhou (2017) 
+examined the impact of quantitative easing on global stock market volatility spillover patterns from 
+the second-moment perspective. Gao et al. (2021) investigated time-varying first- and second-
+moment connectedness networks between Chinese green bonds and equities, commodities, foreign 
+exchange, and money markets under financial event-driven scenarios. 
+With the continuous development of China’s financial markets and the gradual introduction of 
+short-selling mechanisms and derivatives, scholars have begun to focus on the dimension of tail risk 
+(Ando et al., 2022). Compared to mean and volatility levels, tail risk exhibits stronger contagion 
+effects and broader transmission scopes. Once major adverse events occur, tail risk propagates 
+through economic and financial industry linkage networks, threatening the stability of the entire 
+financial-economic system. In recent years, frequent extreme risk events and persistent volatility in 
+international financial markets have revealed limitations in existing risk dimensions for 
+comprehensively characterizing complex intermarket return distribution linkages and asymmetries. 
+For instance, regarding the second moment, variance simplistically equates losses and gains, failing 
+to fully represent real and refined risk measurement, as downside risks typically exhibit higher 
+realization probabilities than upside risks (Bouri and Jalkh, 2023). In light of this, emerging research 
+suggests that a substantial portion of risk information transmission can be reflected through higher-
+
+
+
+=== 第8页 ===
+ 
+6 
+order moment spillovers. There is growing consensus on incorporating asymmetric risk and extreme 
+risk dimensions, utilizing kurtosis and skewness characteristics of financial asset return distributions 
+to capture extreme event frequencies and pricing asymmetries (Neuberger and Payne, 2021). 
+Theoretically, kurtosis spillovers reflect the cross-market propagation of extreme event risks, while 
+skewness spillovers measure the transmission of return distribution asymmetries across markets 
+(Bouri et al., 2021; Bouri and Jalkh, 2023). 
+While existing studies have increasingly adopted complex network methodologies, real-world 
+risk contagion across financial markets or real economic sectors often manifests more intricate 
+patterns. These processes typically exhibit multi-layer network structures characterized by multi-
+dimensional, hybridized interconnections and time-varying complex linkage effects (Bargigli et al., 
+2015). Multiple forms of risk contagion may erupt simultaneously, with sophisticated interaction 
+mechanisms operating across different network layers. Consequently, risk contagion networks 
+constructed solely on single dimensions fail to reflect authentic transmission mechanisms or 
+accurately capture real-world risk diffusion patterns. Instead, researchers should employ scientific 
+approaches like coupled networks to develop multi-layer synthetic frameworks that capture cross-
+layer interaction dynamics and identify complex financial risk transmission pathways (Wang et al., 
+2021). 
+From the perspective of identification methodologies, on one hand, to verify the existence of 
+intermarket risk contagion relationships, (Hong et al., 2009) pioneered the application of Granger 
+causality tests in financial risk measurement, examining linear risk spillovers between pairwise 
+financial assets. However, early-stage studies predominantly focused on pairwise interaction 
+mechanisms between financial entities, neglecting the holistic network connectivity of financial 
+risks, thereby failing to accurately characterize systemic shocks emerging within financial networks 
+(van de Leur et al., 2017). When research scope expands to multiple financial assets or real-sector 
+industries, this necessitates capturing both the heterogeneity and interconnectedness of risk 
+transmission processes. Consequently, complex network models have garnered increasing scholarly 
+attention, offering robust analytical tools for delineating risk correlations among financial entities 
+and assessing financial system fragility (Denbee et al., 2021). These network-based approaches 
+enable the identification of systemically important nodes, measurement of risk propagation channels, 
+and detection of contagion path dependencies through topological analysis of financial network 
+architectures. 
+However, existing literature employing network correlation approaches to investigate financial 
+risks predominantly operates within linear frameworks combined with traditional Granger causality 
+testing methods. In financial systems, asset return series often exhibit significant nonlinear 
+characteristics and structural breaks due to factors such as fire sales of commonly held assets (Kyle 
+and Xiong, 2001; Duarte and Eisenbach, 2021), panic-driven systemic risk contagion among 
+investors (Barunik et al., 2020), and asymmetric dependence between asset returns during market 
+upswings versus downturns (Bollerslev et al., 2022). Furthermore, risk spillover effects demonstrate 
+pronounced asymmetry in their responses to changing market conditions, with financial risk 
+contagion frequently manifesting nonlinear propagation patterns (Shahzad et al., 2018; Chen and 
+Sun, 2024). To address these complexities, researchers have incorporated multivariate nonlinear 
+Granger causality methods into risk contagion network construction, accounting for the tail 
+
+
+
+=== 第9页 ===
+ 
+7 
+clustering effects and asymmetric nature of financial risks (Diks and Wolski, 2016). Additionally, 
+when analyzing networks containing numerous nodes, scholars have introduced the leave-one-out 
+approach to enhance causal relationship identification amidst substantial third-party interference 
+(Zedda and Cannas, 2020). This methodology systematically calculates causal relationships while 
+controlling for each third-party market, thereby improving network structure characterization. 
+On the other hand, the majority of existing studies utilize vector autoregressive (VAR) models 
+to investigate influencing factors of market risk contagion after constructing risk transmission 
+networks (Huang and Liu, 2023). Some research enhances the basic VAR framework with advanced 
+estimation techniques, including error correction models, frequency domain decomposition 
+methods, and time-varying coefficient approaches (Favero, 2013; Antonakakis et al., 2018; Baruník 
+and Křehlík, 2018). However, traditional VAR models face inherent limitations in handling 
+excessive node quantities and time-varying contagion structures within networks, often leading to 
+unreliable estimation outcomes when applied to complex financial systems. To address these 
+challenges, (Zhu et al., 2017) pioneered the network autoregressive (NAR) model, which effectively 
+resolves the “curse of dimensionality” plaguing conventional VAR frameworks. Unlike traditional 
+models where parameter counts grow exponentially with node numbers, the NAR specification 
+maintains stable parameter dimensionality regardless of network size. This breakthrough enables 
+robust analysis of ultra-high-dimensional financial time series data across multiple industries. 
+3. Data and Methodology 
+3.1. Data and sample description 
+We employ the indices based on the Shenwan Level-1 industry classification. The Shenwan 
+industry classification system is built upon four core principles: “profit-driven, valuation clustering, 
+physical attributes, and conventional industry practices” to establish its classification framework. 
+The characteristics of these indices are as follows: they align with investors’ intuitive understanding, 
+ensure that companies within the same industry share comparable business models, financial metrics, 
+and market performance, and undergo timely adjustments in response to China’s economic 
+development and the continuous evolution of the securities market, thereby ensuring well-grounded 
+practicality of the industry definitions. The Shenwan Level-1 industry indices comprise 31 
+industries (Xu et al., 2022), the full names and abbreviations of which are provided in Appendix A 
+(Table A1). 
+We adopt the period from January 2007 to December 2023 as the sample period. To analyze 
+risk contagion patterns during distinct market regimes, we partition the sample into five periods 
+based on major economic and financial events. Period A—August 2007 to December 2009—
+encompasses the global financial crisis, during which global credit markets experienced severe 
+disruptions and contagion effects propagated across international markets (Brunnermeier, 2009; 
+Longstaff, 2010). Period B—July 2014 to June 2015, and Period C—June 2015 to January 2016—
+capture China’s dramatic bull-to-bear market transition, characterized by leverage-fueled 
+speculative bubbles (Bian et al., 2018; Allen et al., 2019). Period D—March 2018 to January 2020—
+covers the China-US trade friction episode, during which escalating tariffs disrupted supply chains 
+and created uncertainty (Fajgelbaum et al., 2020; Fetzer and Schwarz, 2021). Period E—December 
+
+
+
+=== 第10页 ===
+ 
+8 
+2019 to November 2020 — examines the COVID-19 pandemic’s impact, particularly the 
+unprecedented market volatility (Baker et al., 2020; Ramelli and Wagner, 2020). These periods 
+provide archetypal cases of entity-driven shocks (trade friction, pandemic supply disruptions) versus 
+financial-driven shocks (leverage cycles, credit crunches), enabling systematic comparison of 
+transmission mechanisms across shock types. 
+3.2. Research methodology 
+3.2.1. Multidimensional risk measurement method 
+To test our dual-track hypothesis—that entity-driven and financial-driven channels operate 
+through distinct mechanisms—we must first quantify five risk dimensions that potentially capture 
+different aspects of contagion: price risk (reflecting direct cost transmission), volatility risk 
+(uncertainty propagation), asymmetric risk (downside contagion asymmetries), extreme risk (rare 
+event spillovers), and tail risk (systemic leverage-driven contagion). Traditional single-dimensional 
+approaches based solely on volatility or correlation cannot differentiate whether observed contagion 
+reflects supply-chain mechanisms, financial panic, or both, thereby motivating our 
+multidimensional measurement framework. 
+We employ the logarithmic returns of the 2021 edition of Shenwan Level-1 industry indices to 
+measure price risk across industries. Specifically, the logarithmic return of industry indices is 
+calculated as 𝑅𝑡= ln(𝑃𝑡𝑃𝑡−1
+⁄
+), where 𝑃𝑡 and 𝑃𝑡−1 denote the closing prices of the industry 
+indices at time 𝑡 and 𝑡−1, respectively. 
+For higher-moment risks, we apply the GARCHSK model proposed by León et al. (2005), 
+using industry index returns to estimate conditional variance, conditional skewness, and conditional 
+kurtosis, thereby measuring volatility risk, asymmetric risk, and extreme risk, respectively. Kurtosis 
+risk reflects the cross-market propagation of extreme event risks, while skewness risk measures the 
+transmission of return distribution asymmetries across markets (Bouri et al., 2021; Bouri and Jalkh, 
+2023). When the conditional variance, conditional skewness, and conditional kurtosis are all 
+specified with GARCH (1, 1) structures, this model becomes the GARCHSK (1, 1; 1, 1; 1, 1) model, 
+with the following expression: 
+{
+ 
+ 
+ 
+ 
+𝑟𝑡= 𝜇𝑡+ 𝜀𝑡
+𝜂𝑡= ℎ𝑡
+−1
+2𝜀𝑡
+ℎ𝑡= 𝛽0 + 𝛽1𝜂𝑡−1
+2
++ 𝛽2ℎ𝑡−1
+𝑠𝑡= 𝛾0 + 𝛾1𝜂𝑡−1
+3
++ 𝛾2𝑠𝑡−1
+𝑘𝑡= 𝛿0 + 𝛿1𝜂𝑡−1
+4
++ 𝛿2𝑘𝑡−1
+(1) 
+From top to bottom, these equations represent the mean equation, disturbance equation, 
+variance equation, skewness equation, and kurtosis equation of the GARCHSK model, respectively. 
+Here, 𝑟𝑡 denotes the stationary series1 of industrial stock index returns, 𝜇𝑡 represents its mean 
+component, and the disturbance term 𝜀𝑡 satisfies 𝜀𝑡|𝐼𝑡−1~𝐺𝐶(0,ℎ𝑡,𝑠𝑡, 𝑘𝑡), where 𝐼𝑡−1 is the 
+information set at time 𝑡−1, and 𝐺𝐶(0, ℎ𝑡, 𝑠𝑡, 𝑘𝑡) denotes the Gram-Charlier expanded normal 
+distribution characterized by mean, variance, skewness, and kurtosis parameters. Under this 
+                                                                
+1 Unit root tests conducted in both the static and dynamic analyses confirm that the logarithmic return series of the Shenwan Level-1 
+industry indices used in this study follow I(1) processes. In the empirical analysis, all series have been subjected to first-differencing to 
+ensure stationarity requirements are met. The ADF test results for the logarithmic return series in the static analysis are provided in Appendix 
+D Table A2; the ADF test results for the dynamic analysis are available upon request due to space constraints. 
+
+
+
+=== 第11页 ===
+ 
+9 
+framework, the conditional variance ℎ𝑡= 𝑣𝑎𝑟𝑡−1(𝑟𝑡) = 𝑣𝑎𝑟𝑡−1(𝜀𝑡), the conditional skewness 
+𝑠𝑡= 𝑠𝑘𝑒𝑤𝑡−1(𝑟𝑡) = 𝑠𝑘𝑒𝑤𝑡−1(𝜀𝑡), and the conditional kurtosis 𝑘𝑡= 𝑘𝑢𝑟𝑡𝑡−1(𝑟𝑡) = 𝑘𝑢𝑟𝑡𝑡−1(𝜀𝑡). 
+The disturbance term is standardized using ℎ𝑡
+−1/2 to obtain a new disturbance term 𝜂𝑡, which 
+satisfies 𝜂𝑡|𝐼𝑡−1~𝐺𝐶(0,1, 𝑠𝑡
+∗, 𝑘𝑡
+∗) , where 𝑠𝑡
+∗ and 𝑘𝑡
+∗ represent the standardized conditional 
+skewness and kurtosis, respectively. 
+For tail risk measurement, we employ Conditional Value at Risk (CoVaR) following Pham et 
+al. (2024). CoVaR quantifies systemic interdependence by measuring the maximum potential loss 
+in one industry conditional on another industry experiencing extreme stress—a feature for 
+identifying financial-driven contagion where leverage amplification creates nonlinear tail 
+dependencies distinct from linear supply-chain transmission. We integrate CoVaR within our 
+multidimensional framework rather than using it as a standalone measure, because isolated CoVaR 
+analysis cannot distinguish whether tail dependencies stem from entity-driven linkages or financial-
+driven panic (Fengler and Gisler, 2015). It is essential to distinguish between fourth-moment-based 
+extreme risk measurements (Bouri and Jalkh, 2023), which capture entity-specific rare event 
+characteristics, and CoVaR-derived tail dependence risk (Pham et al., 2024), which quantifies 
+systemic interdependence between individual industries and the overall market. The inherent 
+conceptual divergence between these risk dimensions, as empirically demonstrated by the distinct 
+temporal patterns revealed in our subsequent analyses, necessitates their coupled examination 
+through an integrated framework. The detailed CoVaR estimation procedure using DCC-GARCH 
+models (Engle, 2002) is provided in Appendix B. 
+To validate the multidimensional decomposition approach, we examine correlations among the 
+five risk measures across all industries and time periods. Table 1 presents average pairwise 
+correlations from rolling-window cross-sectional data. The correlation between price risk (log 
+returns) and tail risk (CoVaR) is approximately zero (-0.007), indicating these dimensions capture 
+fundamentally distinct risk characteristics. This near-orthogonality supports our dual-track 
+hypothesis: if price risk and tail risk were highly correlated, entity-driven and financial-driven 
+channels would be indistinguishable. Similarly, correlations between price risk and higher-order 
+moments remain negligible (|𝜌| < 0.013), while the highest absolute correlation across all pairs is 
+only 0.146. This low-correlation structure justifies the decomposition approach as a methodological 
+necessity rather than merely a technical choice. 
+Table 1 
+Average pairwise correlations among five risk dimensions 
+ 
+price risk 
+tail risk 
+volatility risk 
+asymmetric risk 
+extreme risk 
+price risk 
+1.0000 
+-0.0069 
+0.0058 
+-0.0130 
+-0.0078 
+tail risk 
+-0.0069 
+1.0000 
+-0.0472 
+0.0060 
+0.0595 
+volatility risk 
+0.0058 
+-0.0472 
+1.0000 
+0.0546 
+-0.1461 
+asymmetric risk 
+-0.0130 
+0.0060 
+0.0546 
+1.0000 
+-0.0614 
+extreme risk 
+-0.0078 
+0.0595 
+-0.1461 
+-0.0614 
+1.0000 
+Note: This table reports element-wise mean correlations computed across all rolling windows (2007-2023) based on 
+cross-sectional data of 31 industries. For each time window t, we construct a 31×5 matrix and compute the 5×5 
+correlation matrix. The near-zero correlation between price risk and tail risk (𝜌 = −0.007) validates that these 
+dimensions capture distinct transmission mechanisms, supporting the dual-track hypothesis. 
+
+
+
+=== 第12页 ===
+ 
+10 
+ 
+3.2.2. Multivariate nonlinear Granger causality test based on LOO algorithm and data 
+sharpening 
+Having quantified five risk dimensions, we face the challenge of identifying causal 
+transmission pathways for each dimension separately: which industries transmit price risk to others? 
+Which propagate tail risk? Simply observing correlations cannot reveal directional causality, nor 
+can linear methods capture the nonlinear amplification mechanisms inherent in financial contagion 
+(fire sales, panic spillovers). Moreover, with 31 industries, spurious causality arising from third-
+party effects (e.g., industry A and B both respond to shocks in industry C, creating false direct 
+linkage) becomes severe. We therefore require a methodology that (1) identifies nonlinear causal 
+relationships, (2) controls for all potential third-party confounders, and (3) constructs dimension-
+specific causal networks to enable subsequent edge uniqueness analysis. 
+Therefore, we employ the multivariate nonlinear Granger causality test integrated with the 
+leave-one-out (LOO) approach proposed by Hué et al. (2019) and enhanced with data-sharpening 
+techniques by Diks and Wolski (2016). The definition of the multivariate Granger causality test is 
+as follows. Given a strictly stationary multivariate time series {(𝑋𝑡, 𝑌𝑡,𝑄𝑡)}  for 𝑡∈ℤ, 
+where 𝑋𝑡 and 𝑌𝑡 are univariate sequences, and 𝑄𝑡 is a univariate or multivariate sequence. For 
+some 𝑘≥1, if: 
+(𝑌𝑡+1, ⋯, 𝑌𝑡+𝑘)|(ℱ𝑋,𝑡,ℱ𝑌,𝑡,ℱ𝑄,𝑡) ≁(𝑌𝑡+1, ⋯, 𝑌𝑡+𝑘)|ℱ𝑌,𝑡,ℱ𝑄,𝑡 
+(2) 
+then {𝑋𝑡} is a Granger cause of {𝑌𝑡}. Here, ℱ𝑋,𝑡, ℱ𝑌,𝑡, and ℱ𝑄,𝑡 represent the information 
+contained in past observations 𝑋𝑠, 𝑌𝑠, and 𝑄𝑠 (where 𝑠≤𝑡), respectively; the symbol “~” denotes 
+distributional non-equivalence. 
+To address the “curse of dimensionality” caused by excessive variables in vector 
+autoregressive (VAR) systems, Hué et al., (2019) proposed a Granger causality test using the Leave-
+One-Out (LOO) approach to identify multivariate Granger causal relationships. The procedure is as 
+follows: 
+Assume there are n stock market risk network nodes. Sequentially conditioning on node k (k = 
+1, …, n), perform conditional multivariate Granger causality tests to obtain n n×n -dimensional 
+network adjacency matrices 𝑊−𝑘(k = 1, …, n). In matrix 𝑊−𝑘, the k-th row and k-th column are 
+set to 0, and the main diagonal elements are also set to 0. If nodes i and j exhibit a Granger causal 
+relationship under the exclusion of node k, the element 𝑊𝑖𝑗
+−𝑘 is assigned 1; otherwise, it is assigned 
+0. Based on these n matrices, calculate the multidimensional sub-networks of stock market risk with 
+direct Granger causal relationships between nodes: 
+𝑊𝑖𝑗= 𝐼(∑
+𝑊𝑖𝑗
+−𝑘
+𝑛
+𝑘=1
+)
+[∑
+𝑊𝑖𝑗
+−𝑘
+𝑛
+𝑘=1
+=𝑛−2]
+ 
+(3) 
+Diks and Wolski (2016) extended the bivariate DP test (Phillips and Ouliaris, 1988) to 
+multivariate scenarios by employing the data-sharpening method proposed by Hall and Minnotte 
+(2002), which reduces the bias of kernel estimators. Consider strictly stationary time 
+series {𝑋𝑡} and {𝑌𝑡}, where {𝑍𝑡} = {𝑋𝑡+1}. 
+First, under the null hypothesis that {𝑋𝑡} is not a Granger cause of {𝑌𝑡}, the hypothesis is 
+formulated as: 
+
+
+
+=== 第13页 ===
+ 
+11 
+𝐻0:     𝑓𝑋,𝑌,𝑍(𝑥, 𝑦, 𝑧)
+𝑓𝑋,𝑌(𝑥, 𝑦)
+= 𝑓𝑌,𝑍(𝑦, 𝑧)
+𝑓𝑌(𝑦)
+ 
+(4) 
+which is equivalent to: 
+𝐻0
+′:     𝑞≡𝐸[𝑓𝑋,𝑌,𝑍(𝑥, 𝑦, 𝑧)𝑓𝑌(𝑦) −𝑓𝑋,𝑌(𝑥, 𝑦)𝑓𝑌,𝑍(𝑦, 𝑧)] = 0  
+(5) 
+Second, the local kernel density estimator is defined as: 
+𝑓̂𝑊(𝑊𝑖) = ((𝑛−1)𝜀)
+−𝑑𝑊∑𝐾(𝑊𝑖−𝑊𝑗
+𝜀
+)
+𝑗,𝑗≠𝑖
+ 
+(6) 
+where 𝑑𝑊 denotes the dimension of matrix 𝑊, i=1, …, n, and 𝜀 represents the bandwidth for 
+nonlinear Granger causality testing. 
+Third, following the approach of Choi and Hall (1999), a sharpened local kernel density 
+estimator is constructed using a plug-in estimator based on the Nadaraya–Watson statistic: 
+𝑓̂𝑊
+𝑠(𝑊𝑖) = ((𝑛−1)𝜀)
+−𝑑𝑊∑𝐾(𝑊𝑖−𝜓𝑝(𝑊𝑗)
+𝜀
+)
+𝑗,𝑗≠𝑖
+ 
+(7) 
+with the sharpening operator 𝜓𝑝(𝑊) given by: 
+𝜓𝑝(𝑊) = 𝐼+ 𝜀2
+2𝜀𝐷𝑆
+2
+∑
+(𝑊𝑖−𝑊)𝐾(𝑊𝑖−𝑊
+𝜀𝐷𝑆
+)
+𝑛
+𝑖=1
+𝐾(𝑊𝑖−𝑊
+𝜀𝐷𝑆
+)
+ 
+(8) 
+Here, 𝜀𝐷𝑆= 𝐶𝐷𝑆𝑛−1/(𝑑𝑊+3) is the data-sharpening bandwidth, where 𝐶𝐷𝑆= 4.0 as calibrated 
+by Diks and Wolski (2016). 
+Finally, the sharpened test statistic 𝑇𝑛𝑠 is constructed as: 
+𝑇𝑛𝑠(𝜀) = (𝑛−1)
+𝑛(𝑛−2) ∑(𝑓̂𝑋,𝑌,𝑍
+𝑠
+(𝑋𝑖, 𝑌𝑖,𝑍𝑖)𝑓̂𝑌
+𝑠(𝑌𝑖) −𝑓̂𝑋,𝑌
+𝑠(𝑋𝑖,𝑌𝑖)𝑓̂𝑌,𝑍
+𝑠(𝑌𝑖, 𝑍𝑖)
+𝑖
+) 
+(9) 
+The null hypothesis is rejected when the standardized statistic satisfies: √𝑛(𝑇𝑛(𝜀𝑛) −𝑞)/𝑆𝑛≥
+𝓏1−𝛼, where 𝑆𝑛 denotes the variance of 𝑇𝑛𝑠, estimated using the method proposed by Diks and 
+Panchenko (2006). 
+3.2.3. Multidimensional network coupling method 
+The five dimension-specific causal networks constructed above capture distinct transmission 
+mechanisms, but analyzing them in isolation obscures a key question: how does the relative 
+importance of each dimension shift across time? During the 2015 crash, did tail risk suddenly 
+dominate, or did all dimensions intensify proportionally? Answering this requires synthesizing 
+information across all five networks to estimate time-varying weights that quantify each 
+dimension’s contribution to aggregate systemic risk—the key evidence for demonstrating that the 
+financial-driven channel (tail risk) becomes explosively dominant during crises while the entity-
+driven channel (price risk) maintains stable persistence. 
+We employ the multidimensional network coupling approach (Bonaccolto et al., 2019; Billio 
+et al., 2023) which extends spatial econometric models to multilayer network settings. This 
+approach yields two outputs: (1) the coupled network adjacency matrix 𝑊∗= ∑
+𝛿𝑑𝑊𝑑
+𝐷
+𝑑=1
+, and (2) 
+time-varying coupling weights 𝛿𝑑(𝑡) that enable us to track how the dominant driver of systemic 
+risk switches from entity-driven to financial-driven channels during crises. The detailed coupling 
+procedure is provided in Appendix C. 
+
+
+
+=== 第14页 ===
+ 
+12 
+3.2.4. Network Topological Property indices 
+We examine the topological characteristics of stock market risk contagion networks across 
+three hierarchical levels, for an overall understanding of the networks constructed. At the whole-
+network level, network density (Dens) is utilized to evaluate the sparsity of connections, calculated 
+as the ratio of observed links to the maximum possible links in the network. A higher network 
+density indicates more extensive risk transmission channels and accelerated risk contagion across 
+the system. 
+At the local structure level, the average clustering coefficient (ACC) quantifies the density of 
+community structures1, reflecting the intensity of community formation within the network. An 
+elevated ACC suggests stronger local clustering effects, where neighboring nodes exhibit dense 
+interconnectivity. This structural property implies that localized risk containment strategies 
+targeting individual nodes may fail to mitigate systemic contagion. The ACC is formally defined as: 
+𝐴𝐶𝐶= 1
+𝑛∑𝐴𝐶𝐶𝑖
+𝑛
+𝑖=1
+=
+1
+𝑛𝑑𝑖(𝑑𝑖−1) ∑𝑊𝑖𝑗+ 𝑊𝑖𝑘
+2〈𝑊𝑖〉
+𝑎𝑖𝑗𝑎𝑖𝑘𝑎𝑗𝑘
+𝑛
+𝑗,𝑘=1
+ 
+(10) 
+At the individual node level, the average eigenvector centrality (EC) quantifies the systemic 
+influence of the nodes. A higher average EC suggests that dominant industries act as hubs for risk 
+contagion, where localized shocks may cascade to the whole market (Yu et al., 2024). The 
+eigenvector centrality vector 𝑬𝑪= (𝐸𝐶1,𝐸𝐶2,… , 𝐸𝐶𝑛) is derived from the spectral decomposition 
+of the adjacency matrix, corresponding to the eigenvector associated with the largest eigenvalue 𝜆. 
+For node i (where 𝑊𝑖𝑗 is the edge weight between nodes i and j): 
+𝐸𝐶𝑖= 1
+𝜆∑ 
+𝑛
+𝑗=1
+𝑊𝑖𝑗𝐸𝐶𝑗
+(11) 
+3.2.5. Network configuration analysis methods 
+To empirically disentangle the dual tracks, we require metrics that measure: (1) Edge 
+Uniqueness (EU): the extent to which each dimension possesses distinct contagion paths 
+unexplained by other dimensions—our primary test of whether price risk and tail risk operate 
+through fundamentally different mechanisms. (2) Block structure: how industries cluster into risk 
+transmission communities and whether these clusters differ across dimensions. (3) Node systemic 
+importance: which industries serve as central propagators versus absorbers in each dimension-
+specific network, enabling identification of dimension-specific hubs. 
+(1) Dimensional heterogeneity analysis in multidimensional networks 
+Edge Uniqueness (EU) measures the distinctiveness of a specific dimension relative to other 
+dimensions in a multidimensional network. It quantifies the proportion of edges that exist in a given 
+dimension but are absent in all other dimensions, thereby assessing the unique contribution of that 
+dimension to the multidimensional network (Musmeci et al., 2017). For a multidimensional 
+asymmetric network, we define the Edge Uniqueness of dimension 𝛼 as: 
+                                                                
+1 In this study, the industry-level community structure is termed “industry-specific communities”, which are characterized by significantly 
+stronger risk contagion linkages among industries within the same community, while risk transmission intensities between distinct 
+communities are comparatively weaker. 
+
+
+
+=== 第15页 ===
+ 
+13 
+𝐸𝑈{𝛼} =
+1
+𝑇𝐿{𝛼} ∑ 
+𝑖≠𝑗
+[𝑊𝑖𝑗
+{𝛼} ∏ 
+𝛽≠𝛼
+(1 −𝑊𝑖𝑗
+{𝛽})]
+(12) 
+where 𝑇𝐿{𝛼} = ∑𝑖≠𝑗 𝑊𝑖𝑗
+{𝛼}  represents the total number of edges in dimension 𝛼; 𝑊𝑖𝑗
+{𝛼} 
+denotes the adjacency relationship from node 𝑖 to node 𝑗 in dimension 𝛼 (taking value 1 if the 
+edge exists and 0 otherwise); 𝛽 iterates over all dimensions except 𝛼; ∏
+ 
+𝛽≠𝛼(1 −𝑊𝑖𝑗
+{𝛽}) equals 
+1 only when the edge (𝑖, 𝑗) is absent in all other dimensions. The Edge Uniqueness ranges between 
+[0, 1], with higher values indicating more distinctive structural features of the dimension and less 
+overlap with other dimensions. 
+(2) Block model analysis 
+The block model is a framework for describing the community structure of networks, which 
+divides nodes into groups based on their attributes or behavioral rules, forming several 
+“communities” or “blocks” within a complex network. This method not only identifies the nodes 
+contained in each block but also analyzes the role each block plays in a risk contagion network 
+(Zhang et al., 2020). The block model classifies network blocks into four distinct roles: First, the 
+Main Benefit, where members receive both internal and external links but obtain more links within 
+the block than from outside, maintaining a small proportion of external relations. Second, the Main 
+Spillover, characterized by members that send many links to other blocks while exchanging few 
+links internally and receiving minimal external connections. Third, the Bilateral Spillover, whose 
+members actively send numerous links both inside and outside their blocks while receiving few 
+external links in return. Finally, the Broker, where members both send and receive external links 
+while maintaining few internal connections. 
+Our block model analysis account for how a block’s relative size influences its internal 
+relationship count, where larger blocks inherently contain more internal connections, whereas 
+smaller blocks demonstrate the inverse pattern (Wasserman and Faust, 1994). To accurately 
+evaluate a block’s relationship preferences, one should compare the actual proportion of internal 
+relationships against the expected proportion, while accounting for both the possible relationships 
+within the block and across the entire network. 
+For example, when analyzing the relationships among members in the block 𝐵𝑚, if 𝐵𝑚 
+contains 𝑛𝑚 nodes, then the maximum possible number of internal relationships in 𝐵𝑚 is 
+𝑛𝑚(𝑛𝑚−1) . If the entire network consists of 𝑛 nodes, then the total possible number of 
+relationships for members in 𝐵𝑚 is 𝑛𝑚(𝑛−1) . Thus, the expected proportion of internal 
+relationships in the block 𝐵𝑚 relative to its total relationships is: 
+𝑛𝑚(𝑛𝑚−1)
+𝑛𝑚(𝑛−1) = 𝑛𝑚−1
+𝑛−1  
+(13) 
+By further incorporating the proportion of external relationships received by the block 
+members, the blocks can be classified into four distinct role types (see Table 2). 
+Table 2 
+Classification criteria for blocks in the block model. 
+Internal Linkages Ratio 
+Received Linkages Ratio 
+
+
+
+=== 第16页 ===
+ 
+14 
+≈0 
+> 0 
+≥(𝑛𝑚−1)/(𝑛−1) 
+Bilateral Spillover 
+Main Benefit 
+< (𝑛𝑚−1)/(𝑛−1) 
+Main Spillover 
+Broker 
+Note: This table presents the classification criteria for block roles in the block model. Based on the comparison 
+between a block’s actual and expected proportion of internal relationships, as well as the proportion of external 
+relationships received by its members, blocks are categorized into four distinct roles: Main Benefit, Main Spillover, 
+Bilateral Spillover, and Broker. 
+ 
+(3) Node Systemic Importance Measurement 
+The System Importance Measure (SIM) for network nodes is calculated using the following 
+procedure. Consider a multidimensional financial risk contagion network with n nodes. First, define 
+the total number of linkages in the network as: 
+𝑇𝐿= ∑𝑊𝑖𝑗
+𝑖≠𝑗
+ 
+(14) 
+Subsequently, when node k is removed, the remaining sub-network comprising n-1 nodes 
+exhibits a linkage count of: 
+𝑇𝐿−𝑘= ∑𝑊𝑖𝑗
+−𝑘
+𝑖≠𝑗
+(15) 
+The systemic importance of node k is then quantified as: 
+𝑆𝐼𝑀𝑘= |𝑇𝐿−𝑇𝐿−𝑘|
+𝑇𝐿
+ 
+(16) 
+This metric captures the relative disruption to network connectivity caused by the removal of 
+node k, normalized by the original network’s total linkages. The absolute value operator ensures 
+directional neutrality in assessing systemic impact. 
+4. Results and analysis 
+4.1. Dynamic analysis of multidimensional risk contagion networks 
+Using time-series data of five-dimensional risks across industries, we construct dynamic stock 
+market risk networks through nonlinear multivariate Granger causality tests based on the leave-one-
+out approach. Following established practices in the Chinese market literature, we employ a rolling 
+window of 250 trading days (approximately one trading year) with a sliding step of 5 trading days, 
+yielding weekly frequency networks from 2007 to 2023. This framework generates five dimension-
+specific causal networks—price risk, volatility risk, asymmetric risk, extreme risk, and tail risk 
+networks—alongside a synthesized multidimensional coupled network that integrates information 
+across all dimensions. The analysis proceeds in three stages: first, we examine when systemic stress 
+emerges through aggregate network topology; second, we disentangle why stress emerges by 
+isolating dimension-specific transmission mechanisms via edge uniqueness analysis; third, we 
+validate these mechanisms through sectoral contribution patterns. 
+4.1.1. Coupled network topology evolution 
+Fig. 1 illustrates the temporal evolution of these three metrics. Several patterns emerge from 
+the data. First, all three metrics exhibit synchronized fluctuations, suggesting that changes in global 
+
+
+
+=== 第17页 ===
+ 
+15 
+connectivity, local clustering, and node centrality reflect common underlying forces rather than 
+independent structural shifts. Second, during exogenous shock periods—notably the global financial 
+crisis and the COVID-19 pandemic—the network demonstrates what we term a “triple-high” 
+configuration. Network density rises substantially, indicating proliferation of cross-sector linkages; 
+clustering coefficients increase, signaling strengthened community structures; and eigenvector 
+centrality becomes more concentrated, reflecting the dominance of systemically important nodes. 
+These patterns are consistent with theoretical predictions that external shocks propagate risks 
+through multiple channels—capital flow disruptions, supply chain fractures, and sentiment 
+contagion—amplified by leverage effects and policy intervention lags (Chan, 2017; Yu et al., 2024). 
+Third, during endogenous bull-to-bear transitions (Period B: July 2014 to June 2015; Period C: 
+June 2015 to January 2016), the metrics display sharp “V-shaped” reversals. All three indicators 
+decline rapidly during the bull market phase, then surge explosively following the market crash. 
+This pattern suggests that leverage-driven risks remained concealed under market euphoria, only to 
+erupt when sentiment reversed or deleveraging policies triggered liquidity crunches. Notably, while 
+risk metrics moderated during the post-2015 regulatory reforms and the China-US trade friction 
+period (Period D: March 2018 to January 2020), they did not return to pre-crisis baselines, indicating 
+persistent structural vulnerabilities. 
+These topological patterns document when the risk network intensifies but cannot explain the 
+underlying mechanisms. The coupled network aggregates all five risk dimensions, obscuring 
+whether intensification reflects supply-chain disruptions propagating price shocks, financial panic 
+amplifying tail dependencies, or both operating simultaneously. This limitation motivates our 
+decomposition analysis in the following subsection. 
+ 
+Fig. 1. Temporal evolution of topological properties in the five-dimensional risk contagion coupled network. 
+
+
+
+=== 第18页 ===
+ 
+16 
+Note: This figure charts network density (Dens, solid line), average clustering coefficient (ACC, dashed line), and 
+eigenvector centrality (EC, dash-dot line) from 2007 to 2023. Shaded regions mark: (A) global financial crisis, (B) 
+bull market, (C) bear market, (D) China-US trade friction, (E) COVID-19 pandemic. The grey dashed rectangle 
+indicates the 2016-2017 “post-crash period”. Time series smoothed via 5-period moving average. 
+ 
+4.1.2. Dimension-specific transmission mechanisms 
+Having established aggregate temporal patterns, we now disentangle heterogeneous 
+transmission mechanisms by examining edge uniqueness across the five risk dimensions. Edge 
+uniqueness quantifies the extent to which risk transmission pathways in one dimension are distinct 
+from those in other dimensions (Musmeci et al., 2017). Higher values indicate that a specific risk 
+dimension possesses contagion channels unexplained by other metrics, thereby offering incremental 
+information about systemic risk propagation. This analysis constitutes the core test of our dual-track 
+hypothesis: if entity-driven and financial-driven channels operate through fundamentally distinct 
+mechanisms, we should observe systematically different edge uniqueness patterns for price risk (our 
+proxy for supply-chain transmission) versus tail risk (our proxy for financial-channel contagion). 
+Fig. 2 presents the dynamic evolution of edge uniqueness for all five risk dimensions from 
+2007 to 2023. The results reveal striking heterogeneity. Price risk networks consistently maintain 
+elevated edge uniqueness throughout the sample period, with values generally exceeding those of 
+other dimensions except during extreme market turmoil. This persistence suggests that cost and 
+demand transmission along supply chains generates contagion pathways that remain structurally 
+distinct from those captured by volatility, skewness, or kurtosis metrics, regardless of market regime. 
+The stability of price risk uniqueness reflects the continuous nature of real-economy production 
+networks: industries remain interconnected through input-output linkages that propagate price 
+shocks via cost transmission mechanisms, even when financial markets transition between boom 
+and crash cycles. 
+In sharp contrast, tail risk networks exhibit dramatically different temporal dynamics. During 
+tranquil periods—including most of the pre-crisis years, the bull market phase, and the China-US 
+trade friction period—tail risk uniqueness remains subdued, often ranking among the lowest across 
+all five dimensions. This dormancy indicates that tail dependencies largely overlap with patterns 
+captured by other risk metrics during normal market conditions. However, during another three 
+episodes—the bear market phase, segments of the COVID-19 pandemic, and portions of the global 
+financial crisis—tail risk uniqueness surges to levels comparable to or exceeding price risk 
+uniqueness. These eruptions signal activation of a crisis-specific transmission mechanism: systemic 
+tail dependencies driven by leverage unwinding, liquidity freezes, and panic-induced correlation 
+breakdowns that create contagion pathways qualitatively different from gradual supply-chain 
+adjustments. 
+The remaining three dimensions—volatility risk, asymmetric risk, and extreme risk—generally 
+exhibit moderate edge uniqueness with limited temporal variation. Their contagion pathways largely 
+overlap with those of price and tail risk, suggesting these dimensions capture intermediate or 
+composite aspects of transmission rather than constituting independent channels. Notably, extreme 
+risk (kurtosis-based) displays modest increases during crises but remains substantially below tail 
+
+
+
+=== 第19页 ===
+ 
+17 
+risk peaks, confirming that fourth-moment measures of rare events differ conceptually from CoVaR-
+derived systemic tail dependencies that condition on joint distress. 
+These patterns provide direct empirical support for the dual-track hypothesis. The persistent 
+elevation of price risk uniqueness, coupled with its relative stability across regimes, indicates that 
+entity-driven transmission through supply chains operates continuously as a structural feature of 
+inter-industry risk propagation. Conversely, the crisis-specific eruptions of tail risk uniqueness 
+demonstrate that financial-driven transmission activates only under extreme stress, becoming the 
+dominant channel when leverage amplification and panic contagion override gradual cost 
+transmission mechanisms. 
+ 
+Fig. 2. Dynamic evolution of edge uniqueness across five-dimensional risk contagion subnetworks. 
+Note: This figure illustrates edge uniqueness for price risk (dashed line), volatility risk (thin solid line), asymmetric 
+risk (dash-dot line), extreme risk (dotted line), and tail risk (thick solid line) from 2007 to 2023. Higher values 
+indicate more unique contagion paths offering greater incremental informational value. Shaded regions mark periods 
+A-E as in Fig. 1. Time series smoothed via 5-period moving average. 
+ 
+To provide additional quantitative evidence for the dual-track mechanism, we examine the 
+temporal evolution of subnetwork coupling weights estimated via the optimization procedure 
+described in Section 3.2.3. These time-varying weights quantify each risk dimension’s relative 
+contribution to aggregate systemic risk at time t, measuring which dimension dominates in driving 
+overall network connectivity. This analysis complements the edge uniqueness results in Fig. 2. Edge 
+uniqueness measures pathway distinctiveness—whether a dimension possesses unique transmission 
+channels. Coupling weights measure dominance—whether a dimension drives aggregate risk. 
+Together, these metrics provide convergent validation of the dual-track mechanism. 
+Fig. 3 presents the dynamic evolution of coupling weights for all five risk dimensions from 
+2007 to 2023. Price risk (log returns) maintains remarkably stable weights throughout the entire 
+sample period. It consistently hovers around 0.20 with minimal fluctuation across all market regimes, 
+including the 2008 global financial crisis, the 2015 crash, and the 2020 pandemic. This stability 
+pattern aligns consistently with the edge uniqueness evidence. Fig. 2 showed that price risk networks 
+maintain persistently high uniqueness across all periods. Fig. 3 now demonstrates that this unique 
+transmission pathway also contributes steadily to aggregate risk. The convergence of high 
+uniqueness and stable moderate weights confirms that entity-driven transmission through supply 
+
+
+
+=== 第20页 ===
+ 
+18 
+chains operates continuously. It possesses both distinct pathways and consistent importance 
+regardless of market conditions. This dual confirmation validates the structural, always-present 
+nature of the entity-driven channel. 
+Tail risk (CoVaR) exhibits a fundamentally different temporal profile. Throughout most of the 
+sample period, tail risk coupling weights fluctuate around levels comparable to other dimensions, 
+which remain largely indistinguishable from volatility or asymmetric risk contributions. However, 
+during the 2015 stock market crash, tail risk weights surge dramatically to their sample-period 
+maximum, substantially exceeding all other dimensions. This weight pattern reveals important 
+heterogeneity when compared with edge uniqueness evidence—during 2015, both metrics peaked 
+simultaneously. Fig. 2 showed tail risk uniqueness surging to sample highs, and Fig. 3 shows tail 
+risk weights dominating aggregate connectivity. This convergence of high uniqueness and high 
+dominance indicates complete activation of the financial-driven channel: leverage unwinding 
+created both distinct transmission pathways and overwhelming contribution to systemic risk. In 
+contrast, during 2020, a critical divergence emerges: tail risk uniqueness surged (Fig. 2) while 
+coupling weights remained moderate (Fig. 3). This divergence suggests that although COVID-19 
+activated tail dependencies creating unique contagion pathways, these pathways did not dominate 
+aggregate risk. The pattern is consistent with the pandemic representing primarily a supply-chain 
+shock rather than a systemic leverage crisis. 
+The remaining three dimensions—volatility, asymmetric, and extreme risk—display 
+substantial temporal variation in coupling weights across different periods. These fluctuations 
+reflect that higher-order moment risks capture intermediate or composite aspects of transmission, 
+whose relative contributions shift depending on shock characteristics. Comparing these dimensions’ 
+coupling weights with their edge uniqueness (Fig. 2) clarifies an essential distinction: moderate 
+uniqueness combined with variable weights indicates dimensions that possess partially distinct 
+pathways; however, their importance fluctuates with market conditions. This pattern differentiates 
+them from the two primary channels: the entity-driven channel exhibits stable weights and persistent 
+uniqueness, while the financial-driven channel exhibits explosive weights during specific episodes 
+and episodic uniqueness surges. The 2015 episode thus stands as the definitive validation, during 
+which tail risk simultaneously achieved maximum uniqueness and maximum coupling weights. This 
+demonstrates that financial-driven contagion can completely dominate systemic risk when leverage 
+amplification activates. Such dominance represents a phenomenon fundamentally distinct from the 
+continuous, moderate contribution of entity-driven transmission. 
+ 
+
+
+
+=== 第21页 ===
+ 
+19 
+Fig. 3. Temporal evolution of risk dimension coupling weights. 
+Note: This figure presents the time-varying coupling weights for the five risk dimensions from 2007 to 2023. Higher 
+weights indicate greater contribution to aggregate systemic risk. Shaded regions mark periods A-E as in Fig. 1. Time 
+series smoothed via 5-period moving average. 
+ 
+4.1.3 Sectoral contribution patterns 
+To validate the dual-track mechanism identified through edge uniqueness analysis, we examine 
+whether sectoral risk contributions align with the predicted patterns. If price risk reflects continuous 
+supply-chain transmission, sectors deeply embedded in production networks should contribute 
+persistently regardless of market regime. Conversely, if tail risk activates during crises, the financial 
+sector’s contribution should surge precisely when tail risk uniqueness peaks. 
+We compute dynamically weighted average systemic importance measures for five major 
+sector groups: Financial (banking and non-bank finance), Technology (electronics, computers, 
+communications, media), Cyclical (oil & petrochemical, coal, steel, nonferrous metals, building 
+materials, machinery, real estate, transportation), Consumption (food & beverage, textiles, 
+household appliances, pharmaceuticals, agriculture), and Comprehensive (defense, utilities, public 
+services). The 31 industries are categorized based on their positions in industrial chains. For each 
+sector group, we calculate the weighted average of constituent industries’ systemic importance 
+measures, using time-varying coupling weights to aggregate across risk dimensions. The relative 
+contribution of each sector at time is computed as its weighted systemic importance divided by the 
+sum across all five sectors. 
+Fig. 4 presents the temporal evolution of sectoral risk contributions from 2007 to 2023. The 
+results support the dual-track interpretation. First, the Cyclical sector maintains the highest and most 
+stable contribution throughout nearly the entire sample period, generally ranging between 25% and 
+35%. This stability aligns with our interpretation of price risk as reflecting continuous supply-chain 
+transmission: cyclical industries form the backbone of China’s production networks, transmitting 
+cost and demand shocks persistently through upstream-downstream linkages. The sector’s 
+contribution exhibits only moderate increases during the global financial crisis and COVID-19 
+pandemic, consistent with the relative stability of price risk uniqueness during these periods. Small 
+fluctuations occur but do not fundamentally alter the sector’s dominant position, confirming that 
+entity-driven transmission constitutes a structural, always-present channel. 
+Second, the Financial sector’s contribution displays explosive crisis-specific surges that 
+coincide precisely with tail risk uniqueness peaks. During the global financial crisis, the Financial 
+sector’s contribution jumps substantially, driven by liquidity crunches in banking and leverage 
+collapses in non-bank finance. Even more dramatically, during the bear market phase following the 
+2015 bull market peak, the Financial sector’s contribution surges to levels exceeding 40%, 
+dominating the risk transmission network as off-market margin financing unwound and stock pledge 
+financing triggered forced liquidations. These eruptions occur precisely when tail risk uniqueness 
+surges in Fig. 2, providing sectoral validation that financial-driven contagion becomes 
+overwhelmingly dominant when systemic tail dependencies activate. Notably, during the China-US 
+trade friction period—an entity-driven shock—the Financial sector’s contribution remains subdued 
+
+
+
+=== 第22页 ===
+ 
+20 
+despite elevated overall risk, confirming that the financial channel remains dormant when crises do 
+not involve leverage amplification or panic contagion. 
+Third, the Technology sector exhibits an intriguing dual pattern: elevated contributions during 
+both the 2015 crash and the trade friction period, but through different mechanisms suggested by 
+the timing and co-movement with other sectors. During the crash, the Technology sector’s surge 
+coincides with the Financial sector’s peak and tail risk activation, suggesting vulnerability through 
+high valuations and speculative leverage—a financial-channel effect. During trade friction, the 
+Technology sector’s elevated contribution occurs while tail risk uniqueness remains low and 
+coincides with stable Cyclical sector contributions, indicating impact through export restrictions 
+and supply chain restructuring—an entity-channel effect. This dual exposure demonstrates that 
+some sectors participate in both transmission channels, though the mechanisms differ fundamentally. 
+The Consumption sector maintains relatively stable contributions for most periods but exhibits 
+increases during the COVID-19 pandemic, reflecting supply chain disruptions for essential goods. 
+The Comprehensive sector displays delayed responses, with contributions rising after other sectors 
+have peaked, potentially reflecting its role in absorbing residual risks through diversified industrial 
+exposures. 
+Taken together, the sectoral evidence corroborates the dual-track mechanism identified 
+through edge uniqueness analysis. The Cyclical sector’s persistent dominance parallels price risk’s 
+continuous elevation, while the Financial sector’s crisis-specific surges align with tail risk 
+activations. This correspondence between dimension-specific edge uniqueness patterns and sectoral 
+contribution dynamics provides convergent validation that entity-driven and financial-driven 
+channels operate through fundamentally distinct mechanisms with different temporal characteristics. 
+ 
+Fig. 4. Temporal changes in risk contagion contributions of the five major sectors. 
+Note: This figure presents a stacked area chart illustrating the time-varying proportional contributions of five major 
+economic sectors to the overall risk in the multidimensional stock market contagion network from 2007 to 2023. 
+The sectors shown are consumption, cyclical, technology, comprehensive, and financial. Each sector’s contribution 
+is calculated from a systemic importance measure, which represents a weighted average of industry-level risk 
+aggregated based on coupling weights from each risk contagion subnetwork. The dashed boxes highlight key 
+historical intervals: (A) the global financial crisis, (B) the bull stock market, (C) the bear stock market, (D) the China-
+US trade friction, and (E) the COVID-19 pandemic. All the data series have been smoothed using a 5-period moving 
+average. 
+ 
+
+
+
+=== 第23页 ===
+ 
+21 
+4.2. Static analysis of multidimensional risk contagion networks 
+The dynamic analysis provides temporal evidence that the multidimensional risk network 
+exhibits patterns consistent with a dual-track contagion mechanism. To substantiate these dynamic 
+findings and elucidate the underlying transmission mechanisms at the sectoral level, we now 
+examine static network configurations during five historical periods. Rather than exhaustively 
+documenting all periods, we organize our analysis around two contrasting case studies that represent 
+fundamentally different shock origins. Throughout the following analysis, we employ standard 
+abbreviations for industry names (e.g., ET for Electronics, NBF for Non-Bank Finance, CP for 
+Computer) to enhance readability. The complete list of full names and abbreviations is provided in 
+Appendix A (Table A1). 
+4.2.1. Case 1: China-US trade friction—An entity-driven channel shock 
+The China-US trade friction period (March 2018–January 2020) constitutes a typical entity-
+driven channel shock. Trade policy disruptions directly impacted supply chains, production costs, 
+and export-oriented sectors—mechanisms characteristic of entity-driven contagion. 
+Following Zhang et al. (2020), we conduct block model analysis on the constructed five-
+dimensional risk contagion networks, with inter-block interaction patterns and block classifications 
+presented in Table 3. During the China-US trade friction, M1 and M2 were both classified as main 
+benefit blocks. M1 included all technology sector industries (electronics, computer, 
+communications, media), cyclical sector industries such as transportation and real estate, and 
+consumption sector industries like pharmaceuticals and biotechnology, and food and beverage. The 
+underlying mechanism lies in the direct shocks inflicted upon the technology sector during China-
+US trade friction through technology embargoes, export restrictions, and supply chain restructuring, 
+which significantly intensified its risk absorption capacity and positioned it as a risk absorption 
+conduit (Zhou et al., 2025). For instance, core technological domains such as semiconductors and 
+communication equipment were subjected to external policy suppression during this period. This 
+not only concentrated risks internally within these industries but also heightened their vulnerability, 
+leading to the absorption of additional spillover risks from other sectors. 
+M2 primarily comprised some consumption and cyclical industries alongside the non-bank 
+finance industry. These industries absorbed risks from other blocks during the trade friction phase 
+due to external shocks. For instance, the nonferrous metals and chemical industries faced impacts 
+from trade policy uncertainty and global supply chain volatility, while the non-bank finance industry 
+became a primary absorber of external risks due to funding chain fluctuations. M3, classified as the 
+main spillover block, included cyclical sectors such as machinery equipment and automobile 
+industries, the banking industry, and the comprehensive industry. The machinery and automobile 
+industries exhibited significant risk spillovers under tariff pressures and export dependencies, while 
+the banking industry intensified risk transmission capabilities amid exchange rate volatility and 
+liquidity tightening. M4, designated as the bilateral spillover block, encompassed oil and 
+petrochemical, architectural ornament, electrical equipment, national defense, and steel industries. 
+The oil and petrochemical and steel industries functioned as both risk sources and transmitters under 
+dual pressures of global trade dynamics and commodity price fluctuations. Concurrently, the 
+
+
+
+=== 第24页 ===
+ 
+22 
+national defense industry demonstrated strong bidirectional risk interactions, reflecting heightened 
+geopolitical tensions between China and the U.S. during this period. 
+The image matrix for Period D (Fig. 5) reveals a unidirectional transmission pattern 
+characteristic of supply chain propagation. Block 4 (bilateral spillover, containing upstream 
+manufacturing) transmits risks predominantly toward Block 1 (main benefit, containing technology 
+sectors). Block 2 (main benefit) receives inputs from Block 4 but exhibits minimal outward 
+transmission. This unidirectional flow from upstream manufacturing to downstream absorption 
+sectors validates the supply chain logic underlying entity-driven contagion. 
+Building on the block-level analysis, we examine individual industry roles within the 
+multidimensional risk contagion networks (see Fig. 6). Industries are classified into four roles based 
+on their in-degree and out-degree rankings: Risk Drivers (low in-degree, high out-degree), Risk 
+Recipients (high in-degree, low out-degree), Risk Propagators (high in-degree, high out-degree), 
+and Risk Isolates (low in-degree, low out-degree). Fig. 6 Panel D maps these roles across the China-
+US trade friction period. The four technology industries—ET (Electronics), CP (Computer), CMC 
+(Communications), and MD (Media)—are all concentrated in the right half of the diagram, 
+indicating high in-degree rankings (absorbing substantial risks from other sectors). Specifically, ET, 
+CP, CMC, and MD occupy positions with out-degree rankings between 0-5 and in-degree rankings 
+between 5-15, placing them predominantly in the Risk Recipients quadrant. This cohesive clustering 
+confirms that technology industries collectively functioned as risk absorbers during the trade friction. 
+In contrast, upstream manufacturing industries occupy distinctly different positions. TA 
+(Textile and Apparel), AM (Automobile Manufacturing), and AFAHF (Agriculture, Forestry, 
+Animal Husbandry and Fishery) locate in the upper-left quadrant (low in-degree, low-to-moderate 
+out-degree), functioning as Risk Drivers. Meanwhile, the non-bank financial industry (NBF) and 
+banking industry (BA) occupy moderate positions without exhibiting dominant transmission roles—
+NBF has an in-degree ranking around 15 and out-degree ranking around 24, while BA sits at 
+approximately in-degree 10 and out-degree 11. The systemic importance measures, indicated by 
+node sizes in Fig. 6 Panel D, reveal that consumption and cyclical sectors (shown in red and orange) 
+such as SS (Steel), FB (Food and Beverage), BC (Building and Construction), and HA (Household 
+Appliances) exhibit relatively large node sizes, reflecting their centrality in production networks. 
+Notably, the largest nodes are AFAHF, OP (Oil and Petrochemical), FB, and SL (Steel), all cyclical 
+or consumption sectors deeply embedded in supply chains. In contrast, NBF and BA display 
+moderate node sizes, indicating that leverage-based importance remained subdued when financial 
+channels were dormant. 
+These static patterns align with the finding that tail risk edge uniqueness remained subdued 
+during Period D (Fig. 2). The concentration of technology industries in risk absorption roles, the 
+unidirectional transmission from upstream manufacturing sectors, and the peripheral positioning of 
+financial institutions collectively validate that the China-US trade friction operated primarily 
+through the entity-driven channel, where risks propagated along supply chain linkages rather than 
+through financial intermediation. 
+4.2.2. Case 2: 2015 stock market crash—A financial-driven channel shock 
+The 2015 stock market crash (June 2015–January 2016) represents a typical financial-driven 
+channel shock. Triggered by aggressive deleveraging policies that unwound margin financing, this 
+
+
+
+=== 第25页 ===
+ 
+23 
+crisis emanated from leverage concentration rather than real economic fundamentals—mechanisms 
+characteristic of financial-driven contagion. 
+Table 3 Period C documents a marked structural transformation from the trade friction period. 
+Crucially, the four technology industries exhibited fragmented positioning: Computer (CP) in M2, 
+while Electronics (ET), Communications (CMC), and Media (MD) all in M3. This dispersion 
+contrasts sharply with their cohesive clustering in M1 during Period D, suggesting that financial 
+panic disrupted sectoral coherence. Most notably, the non-bank financial industry (NBF) 
+transitioned from M2 (main benefit) during trade friction to M4 (main spillover) during the crash, 
+signaling its emergence as the primary source of systemic risk transmission. When leverage 
+unwinding drives contagion, risks propagate through financial relationships—cross-holdings, 
+margin calls, liquidity spirals—that cut across industrial boundaries, severing the supply chain logic 
+that unified technology sectors under entity-driven shocks. 
+The image matrix for Period C (Fig. 5) reveals a fundamentally different transmission topology. 
+Unlike Period D’s unidirectional flows from upstream manufacturing to downstream absorption, 
+Period C exhibits bidirectional amplification dynamics. Block 2 (main benefit) displays a prominent 
+self-loop, indicating intense internal risk circulation among its members. Block 4 (main spillover, 
+containing NBF) transmits risks upward toward Block 1 (main benefit), while Block 3 (main 
+spillover, containing technology sectors) sends spillovers laterally to Block 2. Critically, Block 3 
+receives flows from Block 2, creating a bidirectional exchange absent in the supply chain-driven 
+Period D topology. This mutual amplification between blocks validates that risks propagated 
+through financial linkages rather than production networks. 
+Fig. 6 Panel C demonstrates how individual industries repositioned during the crash. The 
+technology sector’s fragmentation becomes visually apparent: Electronics (ET) locates at in-degree 
+24 and out-degree 5, Computer (CP) at in-degree 3 and out-degree 11, Communications (CMC) at 
+in-degree 26 and out-degree 15, and Media (MD) at in-degree 25 and out-degree 16. This scattered 
+distribution across different quadrants—with CP shifting rightward and upward while ET, CMC, 
+MD remain dispersed in the left-center regions—contrasts starkly with their tight clustering in 
+Period D’s right half, confirming that leverage exposure rather than supply chain position 
+determined individual industries’ vulnerability during financial crises. 
+These static patterns align precisely with the documentation of tail risk edge uniqueness 
+surging dramatically during Period C (Fig. 2). The explosive activation of tail risk networks, 
+combined with NBF’s transition from main benefit to main spillover, the bidirectional amplification 
+flows in Fig. 5 Panel C (contrasting with unidirectional supply chain flows in Fig. 5 Panel D), and 
+the fragmentation of previously cohesive technology sectors collectively validate that the 2015 crash 
+operated predominantly through the financial-driven channel. Unlike trade friction’s supply chain 
+propagation, the crash transmitted via leverage pyramids, liquidity spirals, and sentiment 
+contagion—mechanisms captured by tail risk but not price risk networks. 
+To sum up, the contrasts between Periods C and D substantiate the dual-track hypothesis 
+through four dimensions. First, NBF’s role reversed from a main benefit block during trade friction 
+to a main spillover block during the crash. This demonstrates that financial institutions’ function 
+fundamentally shifts between entity-driven and financial-driven regimes. Second, technology 
+sectors transformed from cohesive clustering in M1 during Period D to fragmentation across M2 
+
+
+
+=== 第26页 ===
+ 
+24 
+and M3 during Period C. Their tight concentration in the right half of Fig. 6 Panel D contrasts with 
+dispersion across quadrants in Fig. 6 Panel C, which reveals that supply chain coherence collapses 
+under leverage-driven contagion. Third, the transmission topology inverted from unidirectional 
+flows to bidirectional amplification loops. Fig. 5 Panel D shows Block 4 transmitting toward Block 
+1, while Fig. 5 Panel C displays Block 2’s self-loop and mutual exchanges between Blocks 2 and 3. 
+This confirms that entity-driven channels follow production networks, while financial-driven 
+channels operate through self-reinforcing panic dynamics. Fourth, these static findings triangulate 
+with the dynamic evidence, including the persistent high uniqueness of price risk networks versus 
+explosive surges in tail risk networks, and the stable cyclical contributions versus crisis-period 
+financial spikes. This convergence across multiple analytical approaches establishes that China’s 
+inter-industry risk contagion operates through two coexisting yet distinct channels, each activated 
+by different shock origins and transmitting through fundamentally different mechanisms. 
+
+
+
+=== 第27页 ===
+ 
+25 
+Table 3 
+Interaction patterns and block classification results. 
+Blocks 
+Receiving relationship 
+Number 
+of 
+members 
+Expected 
+internal 
+relation ratio 
+(%) 
+Actual 
+internal 
+relation ratio 
+(%) 
+Receive 
+links 
+from 
+outside  
+Emit 
+links to 
+outside 
+Block Roles 
+Industry Nodes 
+M1 
+M2 
+M3 
+M4 
+Period A: the global financial crisis 
+M1 
+40 
+44 
+28 
+52 
+8 
+23.33 
+24.39 
+67 
+124 
+Bilateral Spillover 
+TP, PB, PU, ET, CM, AM, ND, LM 
+M2 
+34 
+64 
+46 
+63 
+11 
+33.33 
+30.92 
+92 
+143 
+Broker 
+MD, NM, CMC, CL, OP, EP, EE, CPH, BC, BA, TA 
+M3 
+13 
+26 
+8 
+31 
+5 
+13.33 
+10.26 
+94 
+70 
+Broker 
+ME, AFAHF, AO, CR, BM 
+M4 
+20 
+22 
+20 
+30 
+7 
+20.00 
+32.61 
+146 
+62 
+Main Benefit 
+SS, RE, SL, NBF, FB, HA, CP 
+Period B: the bull stock market 
+M1 
+4 
+20 
+19 
+38 
+3 
+6.67 
+4.94 
+46 
+77 
+Main Spillover 
+TP, BC, AO 
+M2 
+14 
+46 
+52 
+101 
+8 
+23.33 
+21.60 
+122 
+167 
+Broker 
+PU, AFAHF, CR, ME, CM, BM, LM, NM 
+M3 
+15 
+35 
+37 
+70 
+7 
+20.00 
+23.57 
+153 
+120 
+Main Benefit 
+MD, CMC, ND, CP, CL, EP, NBF 
+M4 
+17 
+67 
+82 
+140 
+13 
+40.00 
+45.75 
+209 
+166 
+Main Benefit 
+RE, OP, PB, TA, CPH, HA, EE, ET, SL, SS, FB, 
+AM, BA 
+Period C: the bear stock market 
+M1 
+96 
+45 
+15 
+6 
+11 
+33.33 
+59.26 
+178 
+66 
+Main Benefit 
+TP, CL, EE, AO, PB, OP, ME, AM, BC, RE, FB 
+M2 
+32 
+11 
+3 
+1 
+5 
+13.33 
+23.40 
+108 
+36 
+Main Benefit 
+CP, ND, SS, BA, HA 
+M3 
+41 
+22 
+3 
+1 
+5 
+13.33 
+4.48 
+42 
+64 
+Main Spillover 
+ET, CR, CMC, MD, CM 
+M4 
+105 
+41 
+24 
+21 
+10 
+30.00 
+10.99 
+8 
+170 
+Main Spillover 
+PU, NM, BM, LM, AFAHF, SL, NBF, TA, CPH, EP 
+Period D: the China-US trade friction 
+M1 
+66 
+59 
+37 
+33 
+9 
+26.67 
+33.85 
+182 
+129 
+Main Benefit 
+TP, MD, CP, ET, PB, RE, FB, BC, CMC 
+
+
+
+=== 第28页 ===
+ 
+26 
+M2 
+62 
+41 
+28 
+23 
+8 
+23.33 
+26.62 
+158 
+113 
+Main Benefit 
+BM, EP, CR, NM, NBF, CM, CL, AFAHF 
+M3 
+71 
+57 
+44 
+46 
+8 
+23.33 
+20.18 
+88 
+174 
+Main Spillover 
+PU, LM, CPH, TA, ME, BA, SS, AM 
+M4 
+49 
+42 
+23 
+23 
+6 
+16.67 
+16.79 
+102 
+114 
+Bilateral Spillover 
+OP, AO, EE, ND, SL, HA 
+Period E: the COVID-19 pandemic 
+M1 
+1 
+7 
+0 
+1 
+7 
+20.00 
+11.11 
+18 
+8 
+Main Spillover 
+TP, OP, LM, AFAHF, CPH, RE, ET 
+M2 
+2 
+15 
+20 
+10 
+7 
+20.00 
+31.91 
+70 
+32 
+Main Benefit 
+HA, SS, EE, CMC, BC, NM, PB 
+M3 
+10 
+36 
+11 
+7 
+11 
+33.33 
+17.19 
+37 
+53 
+Main Spillover 
+MD, ND, FB, PU, CL, BA, NBF, TA, AM, SL, AO 
+M4 
+6 
+27 
+17 
+12 
+6 
+16.67 
+19.35 
+18 
+50 
+Bilateral Spillover 
+BM, EP, CR, ME, CM, CP 
+Note: This table presents the detailed outcomes of a block model analysis on the multidimensional risk contagion networks across five distinct periods: (A) the global financial crisis, (B) the bull 
+stock market, (C) the bear stock market, (D) the China-US trade friction, and (E) the COVID-19 pandemic. For each period, the table shows how industry nodes are partitioned into blocks (e.g., 
+M1, M2) and reports on their interaction characteristics. The columns detail the “Receiving relationship” (links from other blocks), “Number of members”, “Expected” and “Actual internal-
+relation ratio (%)”, total “Receive links from outside” and “Emit links to outside”, the assigned “Block Roles” (Main Benefit, Main Spillover, Bilateral Spillover, or Broker), and the specific 
+“Industry Nodes” within each block. Industry abbreviations are defined in Appendix A (Table A1). 
+The number of links received from or emitted to the outside is calculated by summing the corresponding columns or rows in the network’s adjacency matrix, excluding intra-block connections. 
+The “Expected internal-relation ratio” is calculated as (number of members in block - 1) / (total nodes in network - 1). The “Actual internal-relation ratio” is the number of internal links divided 
+by the total links involving the block. The analysis was conducted using the CONCOR algorithm with a maximum cut depth of 2 and a convergence threshold of 0.2. The results reveal a highly 
+dynamic network structure, where the roles and compositions of the blocks shift significantly in response to different economic conditions; for instance, the presence of two distinct “Broker” 
+blocks during the global financial crisis (A) is a unique feature not observed in the other periods, which are primarily characterized by “Main Spillover” and “Main Benefit” roles. 
+
+
+
+=== 第29页 ===
+ 
+27 
+ 
+Fig. 5. Risk spillover transmission mechanisms among four blocks. 
+Note: This figure presents five network diagrams that illustrate the evolution of risk spillover pathways and the 
+functional roles of four industry blocks across different economic periods. In each diagram, arrows denote the 
+direction of risk transmission. The nodes are color-coded to represent their dominant role: Main Benefit (teal), 
+indicating a net receiver of risk; Main Spillover (light pink), indicating a net transmitter of risk; Bilateral Spillover 
+(orange), representing nodes with significant two-way risk exchange; and Brokers (yellow), which facilitate risk 
+transfer between other nodes. The five distinct periods analyzed are (A) the global financial crisis, (B) the bull stock 
+market, (C) the bear stock market, (D) the China-US trade friction, and (E) the COVID-19 pandemic. The analysis 
+reveals that the network’s structure is highly sensitive to prevailing economic conditions, shifting from a densely 
+interconnected system with clear broker roles during the systemic crisis of 2008 (A) to sparser and more fragmented 
+configurations during subsequent market phases and shocks (B-E). 
+ 
+ 
+
+
+
+=== 第30页 ===
+ 
+28 
+ 
+ 
+Fig. 6. Node role identification in the multidimensional stock market risk contagion network. 
+Note: This figure presents five scatter plots that classify the roles of industry nodes based on their in-degree and out-
+degree rankings within the risk contagion networks across different economic periods. The coordinate system is 
+divided into four quadrants, each representing a distinct functional role: the top-left quadrant identifies ‘Risk Drivers’ 
+(high out-degree, low in-degree); the top-right, ‘Risk Propagators’ (high in-degree and out-degree); the bottom-left, 
+‘Risk Isolates’ (low in-degree and out-degree); and the bottom-right, ‘Risk Recipients’ (high in-degree, low out-
+degree). Each circle represents an industry node, with its size reflecting its systemic importance. The nodes are color-
+coded to denote their sector: Consumption Sector (red), Cyclical Sector (light orange), Technology Sector (pink), 
+Financial Sector (yellow), and Comprehensive Sector (blue). Industry abbreviations are defined in Appendix A 
+(Table A1). The five plots correspond to distinct periods: (A) the global financial crisis, (B) the bull stock market, 
+(C) the bear stock market, (D) the China-US trade friction, and (E) the COVID-19 pandemic. A key observation is 
+the dynamic nature of these roles: for instance, financial sector nodes (yellow) are prominent Risk Recipients and 
+Propagators during the global financial crisis (A) and the bear market (C), while consumption sector nodes (red) 
+consistently act as major Risk Propagators across most periods. 
+ 
+4.3. Analysis of multidimensional risk contagion mechanisms 
+4.3.1. Model specification and indicator selection 
+To systematically investigate the multidimensional risk contagion intensity in stock markets 
+under the interplay of cross-industrial mutual effects, intra-industrial self-driven effects, and multi-
+level economic factors, this study constructs a network vector autoregressive (NAR) model for 
+dynamic risk contagion. The model builds on the coupled multidimensional risk contagion network 
+framework established earlier and draws methodological insights from the network vector 
+autoregressive model proposed by Zhu et al. (2017). The general specification of the NAR model is 
+formulated as: 
+𝑌𝑖,𝑡= 𝛼+ 𝛽∑𝑤𝑖𝑗,𝑡−1𝑌𝑗,𝑡−1
+𝑁
+𝑗=1
++ 𝛾𝑌𝑖,𝑡−1 + 𝑍𝑖,𝑡−1
+⊤
+𝛿+ 𝜀𝑖,𝑡= 𝑋𝑖,𝑡−1
+⊤
+𝜃+ 𝜀𝑖,𝑡
+(17) 
+where the explanatory variable 𝑋𝑖(𝑡−1) = (1,∑
+𝑤𝑖𝑗,𝑡−1𝑌𝑗,𝑡−1
+𝑁
+𝑗=1
+, 𝑌𝑖,𝑡−1, 𝑍𝑖,𝑡−1
+T
+)
+⊤∈𝑅𝑝+3 
+includes network spillovers, autoregressive terms, and control variables. The parameter vector 𝜃=
+
+
+
+=== 第31页 ===
+ 
+29 
+(𝜃𝑗)
+⊤= (𝛼, 𝛽, 𝛾, 𝛿⊤ )⊤∈𝑅𝑝+3 is estimated via ordinary least squares (OLS). Furthermore, let 
+𝑋𝑡= (𝑋1𝑡, 𝑋2𝑡, …, 𝑋𝑁𝑡)⊤∈𝑅𝑁×(𝑝+3), then 𝑌𝑡= 𝑋𝑡−1𝜃+ ℰ𝑡. The OLS estimator is then derived 
+as: 
+𝜃ˆ = (∑ 
+T
+𝑡=1
+ 𝑋𝑡−1
+⊤𝑋𝑡−1)
+−1
+∑ 
+T
+𝑡=1
+𝑋𝑡−1
+⊤𝑌𝑡
+(18) 
+The NAR model is operationalized through three specifications to capture distinct dimensions 
+of dynamic risk contagion: 
+𝑂𝑢𝑡𝑅𝑖𝑠𝑘𝑖,𝑡= 𝛼1 + 𝛽1 ∑𝑤𝑖𝑗,𝑡−1
+𝑁
+𝑗=1
+𝑂𝑢𝑡𝑅𝑖𝑠𝑘𝑗,𝑡−1 + 𝛾1𝑂𝑢𝑡𝑅𝑖𝑠𝑘𝑖,𝑡−1 + 𝛿1𝑍𝑖,𝑡−1 + 𝜆𝑖𝑛𝑑𝑢𝑠𝑡𝑟𝑦+ 𝜀𝑖,𝑡(19) 
+𝐼𝑛𝑅𝑖𝑠𝑘𝑖,𝑡= 𝛼2 + 𝛽2 ∑𝑤𝑖𝑗,𝑡−1
+𝑁
+𝑗=1
+𝐼𝑛𝑅𝑖𝑠𝑘𝑗,𝑡−1 + 𝛾2𝐼𝑛𝑅𝑖𝑠𝑘𝑖,𝑡−1 + 𝛿2𝑍𝑖,𝑡−1 + 𝜆𝑖𝑛𝑑𝑢𝑠𝑡𝑟𝑦+ 𝜀𝑖,𝑡
+(20) 
+𝑅𝑖𝑠𝑘𝑖,𝑡= 𝛼3 + 𝛽3 ∑𝑤𝑖𝑗,𝑡−1
+𝑁
+𝑗=1
+𝑅𝑖𝑠𝑘𝑗,𝑡−1 + 𝛾3𝑅𝑖𝑠𝑘𝑖,𝑡−1 + 𝛿3𝑍𝑖,𝑡−1 + 𝜆𝑖𝑛𝑑𝑢𝑠𝑡𝑟𝑦+ 𝜀𝑖,𝑡
+(21) 
+where 𝑖, 𝑗= 1, … , 𝑁 denote industry indices, 𝑡 represents the weekly time index, 
+and 𝑤𝑖𝑗 corresponds to elements of the adjacency matrix derived from the coupled network. The 
+term 𝜆𝑖𝑛𝑑𝑢𝑠𝑡𝑟𝑦 captures industry-specific fixed effects, while 𝜀𝑖,𝑡 denotes the idiosyncratic error 
+term. To ensure statistical robustness, cluster-robust standard errors are estimated at the industry 
+level to address potential heteroskedasticity and intra-industry correlation in the regression 
+coefficients. 
+The dependent variables 𝑂𝑢𝑡𝑅𝑖𝑠𝑘, 𝐼𝑛𝑅𝑖𝑠𝑘, and 𝑅𝑖𝑠𝑘 represent the output intensity, input 
+intensity, and overall intensity of multidimensional dynamic risk contagions in stock markets, 
+respectively, which are hypothesized to be influenced by three primary factors. First, the cross-
+industrial interaction-aggregation effect (𝛽) quantifies the aggregate impact of risk contagion 
+intensities across all N industries on the contagion intensity of a single industry. If 𝛽= 0, the risk 
+contagion intensity of individual industries operates independently or exhibits mutually offsetting 
+effects, indicating no systemic risk interdependence. A negative 𝛽 ( 𝛽< 0 ) suggests a risk 
+dispersion phenomenon, where contagion intensities across industries mutually attenuate, reducing 
+cross-industrial vulnerability. Conversely, a positive 𝛽 (𝛽> 0) signifies risk aggregation, where 
+contagion intensities synergistically amplify within the multidimensional risk network, leading to 
+system-wide escalation. Second, the intra-industrial self-driven effect ( 𝛾) measures the 
+autoregressive influence of the one-period lagged risk contagion intensity within industry i on its 
+current intensity. A higher 𝛾 reflects stronger temporal persistence in risk propagation. 
+Specifically, 𝛾> 0 indicates that risk accumulation within an industry exhibits inertia, persisting 
+over time rather than dissipating rapidly, which implies that historical risk exposures propagate 
+nonlinearly into future periods, sustaining prolonged systemic impacts. 
+Drawing on Prokopczuk et al. (2019) and Yang et al., (2021), this study selects a suite of control 
+variables across three dimensions: macroeconomic conditions, macro-financial environments, and 
+
+
+
+=== 第32页 ===
+ 
+30 
+industry-specific characteristics. Macroeconomic conditions encompass five aspects: RMB 
+exchange rate volatility (FXVol), macroeconomic prosperity index (MacroIndex), M2 growth rate 
+(M2Growth), investor sentiment (InvSent), and financialization degree (FinProp). Macro-financial 
+environments include four components: term spread (TermSprd), credit spread (CreditSprd), TED 
+spread (TEDSprd), and default spread (DefSprd). Industry-specific characteristics cover three 
+dimensions: real estate prosperity (HouseIndex), industry trading volume (Trade), and industry 
+price-to-earnings ratio (PEratio). Detailed definitions and calculation methods for these variables 
+are provided in Table 4, while descriptive statistics are summarized in Table 5. All continuous 
+variables are winsorized at the 1% level to mitigate extreme value influences. 
+Table 4 
+Variable definitions and calculation methods. 
+Variable Type Variable Name 
+Definition 
+Calculation Method 
+Dependent 
+Variables 
+OutRisk 
+Risk contagion output 
+intensity 
+Average of adjacency matrix elements in the row 
+corresponding to each sector, multiplied by 100 
+InRisk 
+Risk contagion input 
+intensity 
+Average of adjacency matrix elements in the column 
+corresponding to each sector, multiplied by 100 
+Risk 
+Risk contagion overall 
+intensity 
+Average of adjacency matrix elements in both rows 
+and columns for each sector, multiplied by 100 
+Explanatory 
+Variables 
+Neted_OutRisk 
+Inter-industrial risk 
+interaction output intensity 
+Cross-multiplication of the five-dimensional risk 
+adjacency matrix with row-wise averages per sector 
+Neted_InRisk 
+Inter-industrial risk 
+interaction input intensity 
+Cross-multiplication of the five-dimensional risk 
+adjacency matrix with column-wise averages per 
+sector 
+Neted_Risk 
+Inter-industrial risk 
+interaction overall intensity 
+Cross-multiplication of the five-dimensional risk 
+adjacency matrix with row and column averages 
+Control 
+Variables 
+FXVol 
+RMB exchange rate 
+volatility 
+Weekly realized volatility of daily RMB/USD 
+exchange rate changes, scaled by 100 
+MacroIndex 
+Macroeconomic prosperity 
+index 
+Coincident index from the macroeconomic prosperity 
+index system 
+M2Growth 
+M2 growth rate 
+growth rate of M2 money supply 
+InvSent 
+Investor sentiment 
+Investor Sentiment Index (ISI) derived via PCA from 
+closed-end fund discounts, IPO volume, first-day 
+returns, consumer confidence, new account openings, 
+and trading volume, with macroeconomic factors 
+removed 
+FinProp 
+Financialization degree 
+Percentage of financial sector value-added (constant 
+price) to GDP (constant price) 
+TermSprd 
+Term spread 
+Difference between 10-year and 1-year government 
+bond yields (daily) 
+CreditSprd 
+Credit spread 
+Difference between 10-year AAA corporate bond 
+yields and 10-year government bond yields (daily) 
+
+
+
+=== 第33页 ===
+ 
+31 
+TEDSprd 
+TED spread 
+Difference between 1-year SHIBOR and 1-year 
+government bond yields (daily) 
+DefSprd 
+Default spread 
+Difference between 10-year A-rated and AAA-rated 
+corporate bond yields (daily) 
+HouseIndex 
+Real estate prosperity  
+National real estate prosperity index 
+Trade 
+Industry trading volume 
+Natural logarithm of total trading volume in the 
+industry 
+PEratio 
+Industry PE ratio 
+Market-value-weighted average price-to-earnings 
+ratio (PE) of firms within the industry 
+Note: This table shows the definitions of the main variables in the regression models. 
+ 
+Table 5 
+Descriptive statistics of variables. 
+Variable Type 
+Variable Name 
+N 
+Mean 
+SD 
+Min 
+p50 
+Max 
+Dependent 
+Variables 
+OutRisk 
+24,986 
+45.265 
+10.904 
+22.347 
+44.878 
+70.769 
+InRisk 
+24,986 
+45.264 
+11.352 
+21.183 
+44.871 
+72.840 
+Risk 
+24,986 
+45.268 
+9.387 
+24.459 
+45.190 
+66.955 
+Explanatory Variables 
+Neted_OutRisk 
+24,986 
+6.512 
+2.411 
+2.191 
+6.266 
+12.855 
+Neted_InRisk 
+24,986 
+6.759 
+2.456 
+2.342 
+6.499 
+13.234 
+Neted_Risk 
+24,986 
+6.635 
+2.433 
+2.265 
+6.376 
+13.057 
+Control Variables 
+FXVol 
+24,986 
+0.512 
+0.362 
+0.007 
+0.452 
+1.763 
+MacroIndex 
+24,986 
+99.125 
+4.511 
+88.030 
+98.800 
+114.790 
+M2Growth 
+24,986 
+13.563 
+4.911 
+8.000 
+12.800 
+29.300 
+InvSent 
+24,986 
+0.361 
+1.396 
+-1.830 
+0.100 
+5.380 
+FinProp 
+24,986 
+6.828 
+1.193 
+4.831 
+7.169 
+8.250 
+TermSprd 
+24,986 
+0.831 
+0.480 
+0.100 
+0.704 
+2.188 
+CreditSprd 
+24,986 
+1.222 
+0.332 
+0.447 
+1.224 
+1.930 
+TEDSprd 
+24,986 
+0.989 
+0.545 
+0.172 
+0.869 
+2.578 
+DefSprd 
+24,986 
+4.689 
+3.797 
+-5.870 
+5.920 
+7.950 
+HouseIndex 
+24,986 
+99.274 
+3.555 
+92.630 
+100.510 
+106.000 
+Trade 
+24,986 
+15.928 
+1.128 
+12.876 
+15.947 
+18.427 
+PEratio 
+24,986 
+35.956 
+22.715 
+6.150 
+31.330 
+126.030 
+Note: This table shows the descriptive characteristics for the main variables. The sample consists of 24,986 industry-
+week observations from 2007.01.16 to 2023.12.25. Definitions of the variables are provided in Table 4. 
+ 
+
+
+
+=== 第34页 ===
+ 
+32 
+4.3.2. Macroeconomic drivers of the financial-driven channel 
+Having established that entity-driven and financial-driven channels exhibit distinct activation 
+patterns and transmission mechanisms, we now investigate what macroeconomic and institutional 
+factors render the financial-driven channel particularly fragile and explosive during crises. The NAR 
+model allows us to identify these structural vulnerabilities by controlling for network effects and 
+isolating the impacts of China’s macroeconomic environment. 
+Table 6 presents the NAR empirical results. Beyond the network interaction effects, two 
+macroeconomic variables exhibit particularly robust positive impacts on risk contagion intensity: 
+financialization degree (FinProp) and real estate prosperity (HouseIndex). The financialization 
+degree consistently shows significant positive coefficients across all specifications—0.980, 0.738, 
+and 0.880 (all significant at the 1% level) for risk output, input, and overall intensities respectively. 
+This indicates that as China’s financial sector expands relative to GDP, systemic risk amplification 
+intensifies. The mechanism operates through multiple channels. First, higher financialization 
+concentrates leverage in financial institutions, creating potential for cascading failures when 
+deleveraging occurs. Second, financialization diverts resources from productive sectors toward 
+speculative activities, weakening the real economy’s shock-absorbing capacity. Third, complex 
+financial instruments proliferate under high financialization, creating opaque interconnections that 
+facilitate rapid contagion propagation once tail risks materialize. 
+The positive influence of real estate prosperity (HouseIndex) on risk contagion fundamentally 
+stems from the dual financial-real attributes of China’s property sector and the structural features of 
+its economy. First, high-leverage-driven risk concentration: During periods of rising real estate 
+prosperity, developers accelerate land acquisitions and project expansions, relying heavily on bank 
+development loans, trust financing, and presale proceeds. Simultaneously, homebuyers increase 
+leverage, leading to a rapid expansion of the financial system’s exposure to real estate risks. Second, 
+resource diversion and economic structural fragility: High real estate prosperity attracts excessive 
+capital inflows, crowding out financing opportunities for productive sectors such as manufacturing 
+and technology. This reinforces financialization, diverting financial resources from productive 
+investments to real estate speculation and eroding the endogenous growth momentum of the real 
+economy. 
+Importantly, financialization and real estate prosperity interact to form a “finance-real estate 
+closed loop.” Risks become interlinked across markets through complex financial instruments such 
+as Commercial Mortgage Backed Securities and supply chain asset-backed securities, resulting in 
+concealed and hard-to-monitor contagion pathways. Notably, periods of high real estate prosperity 
+are not immune to risks but rather stages of latent risk accumulation and accelerated cross-industry 
+transmission. The synergy between real estate prosperity and financialization reflects the deepening 
+of economic financialization—precisely the structural vulnerability that renders the financial-driven 
+channel explosively fragile. 
+These findings complete the evidentiary chain for our dual-track hypothesis. The dynamic and 
+static analyses established that the financial-driven channel activates explosively during crises while 
+remaining dormant during normal periods, transmitting risks through leverage-based linkages 
+captured by tail risk networks. The NAR results reveal why this channel is so fragile: China’s 
+macroeconomic structure—characterized by high financialization and a real estate-centric credit 
+
+
+
+=== 第35页 ===
+ 
+33 
+creation system—provides the fuel for tail risk eruptions. When a spark ignites, such as the 2015 
+deleveraging policy, the accumulated leverage and interconnected exposures combust into system-
+wide contagion. In contrast, the entity-driven channel operates continuously through supply chain 
+linkages, reflected in persistent price risk network structures, and proves less sensitive to these 
+macro-financial vulnerabilities. This structural distinction explains the divergent activation patterns, 
+transmission mechanisms, and crisis sensitivities documented across our analyses. 
+Table 6 
+NAR results of the influencing factors of risk contagion intensity. 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+Risk contagion output 
+intensity 
+Risk contagion input 
+intensity 
+Risk contagion overall 
+intensity 
+Neted_OutRisk 
+0.630*** 
+0.557*** 
+ 
+ 
+ 
+ 
+(0.098) 
+(0.095) 
+ 
+ 
+ 
+ 
+L_OutRisk 
+0.440*** 
+0.464*** 
+ 
+ 
+ 
+ 
+(0.022) 
+(0.022) 
+ 
+ 
+ 
+ 
+Neted_InRisk 
+ 
+ 
+0.180*** 
+0.128*** 
+ 
+ 
+ 
+ 
+(0.042) 
+(0.044) 
+ 
+ 
+L_InRisk 
+ 
+ 
+0.571*** 
+0.588*** 
+ 
+ 
+ 
+ 
+(0.011) 
+(0.012) 
+ 
+ 
+Neted_Risk 
+ 
+ 
+ 
+ 
+0.045 
+0.004 
+ 
+ 
+ 
+ 
+(0.051) 
+(0.052) 
+L_Risk 
+ 
+ 
+ 
+ 
+0.594*** 
+0.609*** 
+ 
+ 
+ 
+ 
+(0.017) 
+(0.017) 
+FXVol 
+1.830*** 
+1.832*** 
+1.820*** 
+1.817*** 
+1.881*** 
+1.877*** 
+(0.210) 
+(0.199) 
+(0.278) 
+(0.264) 
+(0.175) 
+(0.169) 
+MacroIndex 
+-0.199*** 
+-0.196*** 
+-0.193*** 
+-0.191*** 
+-0.202*** 
+-0.200*** 
+(0.017) 
+(0.017) 
+(0.018) 
+(0.017) 
+(0.011) 
+(0.011) 
+M2Growth 
+0.166*** 
+0.142*** 
+0.139*** 
+0.133*** 
+0.159*** 
+0.144*** 
+(0.038) 
+(0.037) 
+(0.048) 
+(0.048) 
+(0.025) 
+(0.024) 
+InvSent 
+-0.194** 
+-0.266*** 
+-0.307*** 
+-0.298*** 
+-0.247*** 
+-0.278*** 
+(0.078) 
+(0.071) 
+(0.063) 
+(0.061) 
+(0.041) 
+(0.040) 
+FinProp 
+0.980*** 
+0.861*** 
+0.738*** 
+0.750*** 
+0.880*** 
+0.825*** 
+(0.204) 
+(0.200) 
+(0.238) 
+(0.227) 
+(0.147) 
+(0.143) 
+TermSprd 
+0.595*** 
+0.642*** 
+0.586** 
+0.605** 
+0.580*** 
+0.609*** 
+(0.215) 
+(0.209) 
+(0.226) 
+(0.230) 
+(0.142) 
+(0.138) 
+CreditSprd 
+1.439*** 
+1.579*** 
+1.656*** 
+1.646*** 
+1.561*** 
+1.621*** 
+(0.295) 
+(0.281) 
+(0.327) 
+(0.312) 
+(0.174) 
+(0.163) 
+TEDSprd 
+-0.057 
+-0.112 
+-0.050 
+-0.077 
+-0.025 
+-0.061 
+(0.189) 
+(0.195) 
+(0.217) 
+(0.220) 
+(0.115) 
+(0.120) 
+DefSprd 
+-0.172*** 
+-0.168*** 
+-0.188*** 
+-0.177*** 
+-0.180*** 
+-0.174*** 
+(0.046) 
+(0.045) 
+(0.043) 
+(0.043) 
+(0.028) 
+(0.029) 
+
+
+
+=== 第36页 ===
+ 
+34 
+HouseIndex 
+0.160*** 
+0.158*** 
+0.165*** 
+0.161*** 
+0.174*** 
+0.171*** 
+(0.032) 
+(0.032) 
+(0.035) 
+(0.035) 
+(0.022) 
+(0.022) 
+Trade 
+-0.306** 
+-0.129 
+0.230 
+0.121 
+-0.064 
+-0.017 
+(0.131) 
+(0.078) 
+(0.150) 
+(0.148) 
+(0.113) 
+(0.068) 
+PEratio 
+-0.005 
+0.004 
+0.002 
+0.006 
+-0.001 
+0.005 
+(0.005) 
+(0.006) 
+(0.006) 
+(0.005) 
+(0.004) 
+(0.003) 
+Constant 
+18.945*** 
+15.986*** 
+7.850** 
+9.229** 
+11.410*** 
+10.531*** 
+(4.097) 
+(3.835) 
+(3.523) 
+(3.706) 
+(2.522) 
+(2.062) 
+Industry FE 
+YES 
+NO 
+YES 
+NO 
+YES 
+NO 
+Observations 
+24986 
+24986 
+24986 
+24986 
+24986 
+24986 
+Adjusted R2 
+0.389 
+0.386 
+0.411 
+0.407 
+0.438 
+0.436 
+Note: Table 6 reports the results of tests examining the cross-industrial interaction-aggregation effect and the intra-
+industrial self-driven effect. The sample consists of 24,986 industry-week observations from 2007.01.16 to 
+2023.12.25. All variables are defined in Table 4. Standard errors are clustered by industry, shown in parentheses. All 
+continuous variables are winsorized at 1% and 99%. ***, **, and * indicate statistical significance at the 1%, 5%, 
+and 10% levels, respectively. 
+ 
+4.3.3. Robustness tests 
+In our baseline regression, the multidimensional risk coupled networks are constructed at a 
+weekly frequency using a 5-trading-day step length. Recognizing that networks built upon different 
+step lengths are designed to capture inter-industry risk contagion over varying time horizons, we 
+conduct a key robustness check to validate our baseline results and ensure they are not contingent 
+on this specific methodological choice. Specifically, we reconstruct the multidimensional coupled 
+networks using alternative step lengths of 10, 20, 30, 50, 100 and 120 trading days. All frequency-
+dependent variables are adjusted accordingly. For instance, the RMB exchange rate volatility 
+(FXVol) is recalculated as the realized volatility derived from daily RMB-USD exchange rate 
+returns over forward-rolling windows of 10, 20, 30, 50, 100 and 120 trading days, respectively, and 
+then scaled by 100. The industry price-to-earnings ratio (PEratio) and industry trading volume 
+(Trade), based on the value-weighted price-to-earnings ratio of constituent firms and the natural 
+logarithm of total trading volume, respectively, are recomputed as averages over these 
+corresponding periods. The remaining control variables are invariant to the step length, as they are 
+measured at daily or month-end frequencies, thus requiring no adjustment. 
+Table 7 represents the regression results using different step lengths for network construction. 
+First, we use shorter-term step lengths of 10 and 20 trading days. The results, reported in Table 7 
+Panel A, show that the coefficients of main independent variables remain similar to our baseline 
+regressions, confirming our main findings. Second, we employ medium-term step lengths of 30 and 
+50 trading days. We repeat the baseline regressions and present the results in Table 7 Panel B. The 
+estimations yield similar results, with the key coefficients retaining their sign and statistical 
+significance. Third, we use much longer step lengths of 100 and 120 trading days to construct the 
+networks, the results of which are reported in Table 7 Panel C. We find that even at these lower 
+frequencies, the baseline relationships hold: the coefficients on the input and output intensity 
+network effects are still positive and statistically significant, while the non-significance of the 
+
+
+
+=== 第37页 ===
+ 
+35 
+overall intensity network effect remains. Overall, these tests confirm that our main conclusions are 
+robust to a wide range of network construction frequencies. 
+Table 7 
+Robustness tests: varying the step length for network construction. 
+Panel A: Regression results using alternative step lengths of 10 or 20 trading days 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ 
+step = 10 
+step = 20 
+Dependent var. 
+OutRisk 
+InRisk 
+Risk 
+OutRisk 
+InRisk 
+Risk 
+Neted_OutRisk 
+0.535*** 
+ 
+ 
+0.650*** 
+ 
+ 
+(0.122) 
+ 
+ 
+(0.163) 
+ 
+ 
+L_OutRisk 
+0.457*** 
+ 
+ 
+0.429*** 
+ 
+ 
+(0.028) 
+ 
+ 
+(0.036) 
+ 
+ 
+Neted_InRisk 
+ 
+0.162*** 
+ 
+ 
+0.183*** 
+ 
+ 
+(0.046) 
+ 
+ 
+(0.056) 
+ 
+L_InRisk 
+ 
+0.567*** 
+ 
+ 
+0.565*** 
+ 
+ 
+(0.013) 
+ 
+ 
+(0.014) 
+ 
+Neted_Risk 
+ 
+ 
+0.044 
+ 
+ 
+0.061 
+ 
+ 
+(0.062) 
+ 
+ 
+(0.079) 
+L_Risk 
+ 
+ 
+0.588*** 
+ 
+ 
+0.583*** 
+ 
+ 
+(0.020) 
+ 
+ 
+(0.024) 
+Constant 
+35.078*** 
+22.234*** 
+26.694*** 
+25.265*** 
+8.960* 
+14.741*** 
+(5.091) 
+(3.844) 
+(2.898) 
+(6.367) 
+(4.987) 
+(4.084) 
+Controls 
+YES 
+YES 
+YES 
+YES 
+YES 
+YES 
+Industry FE 
+YES 
+YES 
+YES 
+YES 
+YES 
+YES 
+Observations 
+12462 
+12462 
+12462 
+6231 
+6231 
+6231 
+Adjusted R2 
+0.407 
+0.429 
+0.466 
+0.402 
+0.429 
+0.467 
+Panel B: Regression results using alternative step lengths of 30 or 50 trading days 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ 
+step = 30 
+step = 50 
+Dependent var. 
+OutRisk 
+InRisk 
+Risk 
+OutRisk 
+InRisk 
+Risk 
+Neted_OutRisk 
+0.762*** 
+ 
+ 
+1.196*** 
+ 
+ 
+(0.161) 
+ 
+ 
+(0.243) 
+ 
+ 
+L_OutRisk 
+0.416*** 
+ 
+ 
+0.387*** 
+ 
+ 
+(0.034) 
+ 
+ 
+(0.053) 
+ 
+ 
+Neted_InRisk 
+ 
+0.157** 
+ 
+ 
+0.405*** 
+ 
+ 
+(0.067) 
+ 
+ 
+(0.086) 
+ 
+L_InRisk 
+ 
+0.582*** 
+ 
+ 
+0.589*** 
+ 
+ 
+(0.016) 
+ 
+ 
+(0.029) 
+ 
+Neted_Risk 
+ 
+ 
+0.139 
+ 
+ 
+0.251 
+ 
+ 
+(0.089) 
+ 
+ 
+(0.151) 
+L_Risk 
+ 
+ 
+0.575*** 
+ 
+ 
+0.617*** 
+
+
+
+=== 第38页 ===
+ 
+36 
+ 
+ 
+(0.025) 
+ 
+ 
+(0.046) 
+Constant 
+40.649*** 
+25.424*** 
+31.615*** 
+18.281** 
+0.929 
+4.207 
+(6.631) 
+(5.975) 
+(4.227) 
+(8.484) 
+(6.479) 
+(5.117) 
+Controls 
+YES 
+YES 
+YES 
+YES 
+YES 
+YES 
+Industry FE 
+YES 
+YES 
+YES 
+YES 
+YES 
+YES 
+Observations 
+4154 
+4154 
+4154 
+2480 
+2480 
+2480 
+Adjusted R2 
+0.446 
+0.467 
+0.520 
+0.396 
+0.408 
+0.433 
+Panel C: Regression results using alternative step lengths of 100 or 120 trading days 
+ 
+(1) 
+(2) 
+(3) 
+(4) 
+(5) 
+(6) 
+ 
+step = 100 
+step = 120 
+Dependent var. 
+OutRisk 
+InRisk 
+Risk 
+OutRisk 
+InRisk 
+Risk 
+Neted_OutRisk 
+1.525*** 
+ 
+ 
+1.235*** 
+ 
+ 
+(0.365) 
+ 
+ 
+(0.359) 
+ 
+ 
+L_OutRisk 
+0.350*** 
+ 
+ 
+0.254*** 
+ 
+ 
+(0.078) 
+ 
+ 
+(0.077) 
+ 
+ 
+Neted_InRisk 
+ 
+0.452*** 
+ 
+ 
+0.218* 
+ 
+ 
+(0.100) 
+ 
+ 
+(0.122) 
+ 
+L_InRisk 
+ 
+0.607*** 
+ 
+ 
+0.546*** 
+ 
+ 
+(0.032) 
+ 
+ 
+(0.032) 
+ 
+Neted_Risk 
+ 
+ 
+0.268 
+ 
+ 
+0.105 
+ 
+ 
+(0.180) 
+ 
+ 
+(0.173) 
+L_Risk 
+ 
+ 
+0.638*** 
+ 
+ 
+0.545*** 
+ 
+ 
+(0.054) 
+ 
+ 
+(0.049) 
+Constant 
+-12.547 
+-28.765*** 
+-26.388*** 
+41.354** 
+18.228 
+26.566*** 
+(11.217) 
+(9.387) 
+(6.026) 
+(17.053) 
+(12.917) 
+(9.164) 
+Controls 
+YES 
+YES 
+YES 
+YES 
+YES 
+YES 
+Industry FE 
+YES 
+YES 
+YES 
+YES 
+YES 
+YES 
+Observations 
+1240 
+1240 
+1240 
+1023 
+1023 
+1023 
+Adjusted R2 
+0.435 
+0.437 
+0.481 
+0.463 
+0.479 
+0.567 
+Note: This table reports the results of robustness tests where the step length for constructing the risk networks is 
+varied. Panel A presents regression results using step lengths of 10 and 20 trading days. Panel B uses step lengths of 
+30 and 50 trading days, and Panel C uses step lengths of 100 and 120 trading days. The dependent variables are 
+OutRisk (risk contagion output intensity), InRisk (risk contagion input intensity), and Risk (risk contagion overall 
+intensity). “L_” denotes the one-period lagged variable. All regressions include the same set of control variables as 
+in the baseline model, defined in Table 4, and control for industry fixed effects. Standard errors are clustered by 
+industry, shown in parentheses. All continuous variables are winsorized at 1% and 99%. ***, **, and * indicate 
+statistical significance at the 1%, 5%, and 10% levels, respectively. 
+ 
+5. Conclusions 
+This study examines inter-industry risk contagion in China through a multi-dimensional 
+coupled network framework spanning 2007-2023. By decomposing aggregate risk into five 
+
+
+
+=== 第39页 ===
+ 
+37 
+dimensions and analyzing their distinct transmission patterns, we uncover a dual-track contagion 
+mechanism that operates through fundamentally different channels with heterogeneous temporal 
+dynamics, network topologies, and macroeconomic sensitivities. 
+Our central finding is that inter-industry risk transmission follows two coexisting yet distinct 
+tracks. The entity-driven channel, proxied by price risk, functions as a structural backbone. It 
+exhibits persistent high edge uniqueness and remarkably stable coupling weights (approximately 
+0.20) throughout the sample period, reflecting continuous cost and demand propagation along 
+supply chain networks. This structural channel maintains stable sectoral contributions, with cyclical 
+industries consistently dominating transmission regardless of market conditions. 
+In contrast, the financial-driven channel, proxied by tail risk, remains dormant during tranquil 
+periods but activates explosively during systemic crises. Dynamic coupling weight analysis reveals 
+a critical mechanism for distinguishing crisis types: during the 2015 stock market crash, tail risk 
+weights surged to dominate aggregate connectivity, coinciding with peak edge uniqueness to signal 
+complete channel activation driven by leverage unwinding. Conversely, during the COVID-19 
+pandemic, a divergence emerged: while tail risk uniqueness rose, coupling weights remained 
+moderate, indicating that the shock propagated primarily through supply chains rather than systemic 
+financial dominance. This evidence confirms that the dominant transmission mechanism switches 
+between entity-based and leverage-amplified pathways depending on whether the shock originates 
+from the real economy or the financial system. 
+Static case studies further validate this mechanism. The China-US trade friction period 
+exemplifies entity-driven contagion: technology sectors cohesively absorbed risks through supply 
+chain disruptions, transmission followed production linkages, and tail risk networks remained 
+subdued. Conversely, the 2015 crash demonstrates financial-driven contagion: non-bank financial 
+institutions became dominant risk propagators, technology sectors fragmented as leverage exposure 
+superseded production relationships, and bidirectional amplification loops replaced unidirectional 
+supply chain flows. Network autoregressive analysis identifies the macroeconomic roots of this 
+asymmetry. Financialization degree and real estate prosperity significantly amplify tail risk 
+contagion while exerting negligible influence on price risk transmission, indicating that the financial 
+channel’s fragility stems from China’s structural dependence on leverage and property-backed 
+credit creation. 
+These findings carry implications for financial regulation and systemic risk management. Our 
+evidence suggests that effective risk prevention requires a dual-track regulatory approach aligned 
+with the distinct characteristics of each contagion channel. 
+For the entity-driven channel, regulators should establish supply-chain-based early-warning 
+systems leveraging industry price indices and production network centrality metrics. Given this 
+channel’s persistent, structural nature, monitoring should focus on routine risk management rather 
+than crisis-specific interventions. Price risk networks maintain high connectivity across all periods, 
+with cyclical industries consistently serving as transmission hubs. Accordingly, surveillance 
+systems should track cost propagation along upstream-downstream linkages, identify industries 
+whose production centrality renders them systemically important for real-economy stability, and 
+implement targeted support during supply disruptions to prevent cascading failures through 
+
+
+
+=== 第40页 ===
+ 
+38 
+manufacturing networks. This constitutes continuous, non-crisis-specific oversight aimed at 
+maintaining operational resilience in the real economy. 
+For the financial-driven channel, regulators must prioritize macroprudential policies targeting 
+financial leverage and real estate financing to prevent tail risk activation. Our NAR results 
+demonstrate that financialization degree and property prosperity significantly amplify contagion 
+intensity, providing fuel that ignites system-wide crises once triggered by deleveraging shocks or 
+panic episodes. Regulatory focus should concentrate on financial institutions’ leverage ratios, 
+shadow banking exposures, and real estate credit concentrations. Given this channel’s crisis-
+activated nature, interventions should emphasize preemptive containment of leverage buildup and 
+rapid stabilization when tail dependencies threaten to cascade. During normal periods, 
+macroprudential tools should constrain excessive credit growth and speculative financing. During 
+stress episodes, liquidity provision and orderly deleveraging protocols become critical to preventing 
+the explosive amplification documented in our 2015 crash analysis. This constitutes crisis 
+prevention at its core. 
+Single-track regulatory frameworks that treat all risk dimensions equivalently will prove 
+inadequate for managing systemic risk in emerging markets characterized by both persistent supply 
+chain interdependencies and episodic financial instabilities. The dual-track approach acknowledges 
+that different shock origins require differentiated policy responses: structural vulnerabilities demand 
+continuous monitoring and gradual adjustment, whereas leverage-driven fragilities necessitate 
+aggressive preemptive action to forestall nonlinear escalation. Our findings from China’s experience 
+offer broader lessons for emerging economies undergoing financial deepening while maintaining 
+extensive real-economy production networks, where the coexistence of entity-driven and financial-
+driven contagion channels creates distinct regulatory challenges that conventional single-dimension 
+frameworks cannot adequately address. 
+References 
+Abuzayed, B., Bouri, E., Al-Fayoumi, N., Jalkh, N., 2021. Systemic risk spillover across global and country stock 
+markets during the COVID-19 pandemic. Economic Analysis and Policy 71, 180–197. 
+https://doi.org/10.1016/j.eap.2021.04.010 
+Acemoglu, D., Carvalho, V.M., Ozdaglar, A., Tahbaz-Salehi, A., 2012. The Network Origins of Aggregate 
+Fluctuations. Econometrica 80, 1977–2016. https://doi.org/10.3982/ECTA9623 
+Allen, F., Qian, Y., Tu, G., Yu, F., 2019. Entrusted loans: A close look at China’s shadow banking system. Journal of 
+Financial Economics 133, 18–41. https://doi.org/10.1016/j.jfineco.2019.01.006 
+Ando, T., Greenwood-Nimmo, M., Shin, Y., 2022. Quantile Connectedness: Modeling Tail Behavior in the Topology 
+of Financial Networks. Management Science 68, 2401–2431. https://doi.org/10.1287/mnsc.2021.3984 
+Antonakakis, N., Cunado, J., Filis, G., Gabauer, D., Perez de Gracia, F., 2018. Oil volatility, oil and gas firms and 
+portfolio diversification. Energy Economics 70, 499–515. https://doi.org/10.1016/j.eneco.2018.01.023 
+Asgharian, H., Nossman, M., 2011. Risk contagion among international stock markets. Journal of International 
+Money and Finance 30, 22–38. https://doi.org/10.1016/j.jimonfin.2010.06.006 
+Avery, C., Zemsky, P., 1998. Multidimensional Uncertainty and Herd Behavior in Financial Markets. The American 
+Economic Review 88, 724–748. 
+Baker, S.R., Bloom, N., Davis, S.J., Kost, K., Sammon, M., Viratyosin, T., 2020. The Unprecedented Stock Market 
+
+
+
+=== 第41页 ===
+ 
+39 
+Reaction to COVID-19. Rev Asset Pric Stud 10, 742–758. https://doi.org/10.1093/rapstu/raaa008 
+Bargigli, L., di Iasio, G., Infante, L., Lillo, F., Pierobon, F., 2015. The multiplex structure of interbank networks. 
+Quantitative Finance 15, 673–691. https://doi.org/10.1080/14697688.2014.968356 
+Barunik, J., Drabek, Z., Nevrla, M., 2020. Investment Disputes and Abnormal Volatility of Stocks. 
+https://doi.org/10.48550/arXiv.2006.10505 
+Baruník, J., Křehlík, T., 2018. Measuring the Frequency Dynamics of Financial Connectedness and Systemic Risk*. 
+Journal of Financial Econometrics 16, 271–296. https://doi.org/10.1093/jjfinec/nby001 
+Bian, J., He, Z., Shue, K., Zhou, H., 2018. Leverage-Induced Fire Sales and Stock Market Crashes. Working Paper 
+Series. https://doi.org/10.3386/w25040 
+Billio, M., Caporin, M., Panzica, R., Pelizzon, L., 2023. The impact of network connectivity on factor exposures, 
+asset pricing, and portfolio diversification. International Review of Economics & Finance 84, 196–223. 
+https://doi.org/10.1016/j.iref.2022.11.002 
+Bollerslev, T., Patton, A.J., Quaedvlieg, R., 2022. Realized semibetas: Disentangling “good” and “bad” downside 
+risks. Journal of Financial Economics 144, 227–246. https://doi.org/10.1016/j.jfineco.2021.05.056 
+Bonaccolto, G., Caporin, M., Panzica, R., 2019. Estimation and model-based combination of causality networks 
+among large US banks and insurance companies. Journal of Empirical Finance 54, 1–21. 
+https://doi.org/10.1016/j.jempfin.2019.08.008 
+Bouri, E., Jalkh, N., 2023. Spillovers of joint volatility-skewness-kurtosis of major cryptocurrencies and their 
+determinants. 
+International 
+Review 
+of 
+Financial 
+Analysis 
+90, 
+102915. 
+https://doi.org/10.1016/j.irfa.2023.102915 
+Bouri, E., Lei, X., Jalkh, N., Xu, Y., Zhang, H., 2021. Spillovers in higher moments and jumps across US stock and 
+strategic 
+commodity 
+markets. 
+Resources 
+Policy 
+72, 
+102060. 
+https://doi.org/10.1016/j.resourpol.2021.102060 
+Brunnermeier, M.K., 2009. Deciphering the Liquidity and Credit Crunch 2007–2008. Journal of Economic 
+Perspectives 23, 77–100. https://doi.org/10.1257/jep.23.1.77 
+Carpenter, J.N., Lu, F., Whitelaw, R.F., 2021. The real value of China’s stock market. Journal of Financial Economics 
+139, 679–696. https://doi.org/10.1016/j.jfineco.2020.08.012 
+Carvalho, D., 2015. Financing Constraints and the Amplification of Aggregate Downturns. Rev. Financ. Stud. 28, 
+2463–2501. https://doi.org/10.1093/rfs/hhv021 
+Chan, S., 2017. Assessing China’s recent capital outflows: policy challenges and implications. China Financ. and 
+Econ. Rev. 5, 3. https://doi.org/10.1186/s40589-017-0048-0 
+Chen, B., Sun, Y., 2024. Financial market connectedness between the U.S. and China: A new perspective based on 
+non-linear causality networks. Journal of International Financial Markets, Institutions and Money 90, 
+101886. https://doi.org/10.1016/j.intfin.2023.101886 
+Choi, E., Hall, P., 1999. Miscellanea. Data sharpening as a prelude to density estimation. Biometrika 86, 941–947. 
+https://doi.org/10.1093/biomet/86.4.941 
+Denbee, E., Julliard, C., Li, Y., Yuan, K., 2021. Network risk and key players: A structural analysis of interbank 
+liquidity. Journal of Financial Economics 141, 831–859. https://doi.org/10.1016/j.jfineco.2021.05.010 
+Diebold, F.X., Yılmaz, K., 2014. On the network topology of variance decompositions: Measuring the connectedness 
+of financial firms. Journal of Econometrics, Causality, Prediction, and Specification Analysis: Recent 
+Advances and Future Directions 182, 119–134. https://doi.org/10.1016/j.jeconom.2014.04.012 
+Diks, C., Panchenko, V., 2006. A new statistic and practical guidelines for nonparametric Granger causality testing. 
+
+
+
+=== 第42页 ===
+ 
+40 
+Journal of Economic Dynamics and Control, Computing in economics and finance 30, 1647–1669. 
+https://doi.org/10.1016/j.jedc.2005.08.008 
+Diks, C., Wolski, M., 2016. Nonlinear Granger Causality: Guidelines for Multivariate Analysis. J of Applied 
+Econometrics 31, 1333–1351. https://doi.org/10.1002/jae.2495 
+DUARTE, F., EISENBACH, T.M., 2021. Fire‐Sale Spillovers and Systemic Risk. The Journal of Finance 76, 1251–
+1294. https://doi.org/10.1111/jofi.13010 
+Engle, R., 2002. Dynamic Conditional Correlation. Journal of Business & Economic Statistics 20, 339–350. 
+https://doi.org/10.1198/073500102288618487 
+Fajgelbaum, P.D., Goldberg, P.K., Kennedy, P.J., Khandelwal, A.K., 2020. The Return to Protectionism*. Q J Econ 
+135, 1–55. https://doi.org/10.1093/qje/qjz036 
+Favero, C.A., 2013. Modelling and forecasting government bond spreads in the euro area: A GVAR model. Journal 
+of 
+Econometrics, 
+Dynamic 
+Econometric 
+Modeling 
+and 
+Forecasting 
+177, 
+343–356. 
+https://doi.org/10.1016/j.jeconom.2013.04.004 
+Fengler, M.R., Gisler, K.I.M., 2015. A variance spillover analysis without covariances: What do we miss? Journal 
+of International Money and Finance 51, 174–195. https://doi.org/10.1016/j.jimonfin.2014.11.006 
+Fetzer, T., Schwarz, C., 2021. Tariffs and Politics: Evidence from Trump’s Trade Wars. Econ J 131, 1717–1741. 
+https://doi.org/10.1093/ej/ueaa122 
+Gao, Y., Li, Y., Wang, Y., 2021. Risk spillover and network connectedness analysis of China’s green bond and 
+financial markets: Evidence from financial events of 2015–2020. The North American Journal of 
+Economics and Finance 57, 101386. https://doi.org/10.1016/j.najef.2021.101386 
+Giannetti, M., Saidi, F., 2019. Shock Propagation and Banking Structure. Rev Financ Stud 32, 2499–2540. 
+https://doi.org/10.1093/rfs/hhy135 
+Glick, R., Hutchison, M., 2013. China’s financial linkages with Asia and the global financial crisis. Journal of 
+International Money and Finance, Macroeconomic and financial policy challenges of China and India 39, 
+186–206. https://doi.org/10.1016/j.jimonfin.2013.06.025 
+Hall, P., Minnotte, M.C., 2002. High Order Data Sharpening for Density Estimation. J. R. Stat. Soc. Ser. B. Stat. 
+Methodol. 64, 141–157. https://doi.org/10.1111/1467-9868.00329 
+Hong, Y., Liu, Y., Wang, S., 2009. Granger causality in risk and detection of extreme risk spillover between financial 
+markets. Journal of Econometrics, Recent Development in Financial Econometrics 150, 271–287. 
+https://doi.org/10.1016/j.jeconom.2008.12.013 
+Huang, W.-Q., Liu, P., 2023. Cross-market risk spillovers among sovereign CDS, stock, foreign exchange and 
+commodity markets: An interacting network perspective. International Review of Financial Analysis 90, 
+102875. https://doi.org/10.1016/j.irfa.2023.102875 
+Hué, S., Lucotte, Y., Tokpavi, S., 2019. Measuring network systemic risk contributions: A leave-one-out approach. 
+Journal of Economic Dynamics and Control 100, 86–114. https://doi.org/10.1016/j.jedc.2018.12.001 
+Kyle, A.S., Xiong, W., 2001. Contagion as a Wealth Effect. The Journal of Finance 56, 1401–1440. 
+https://doi.org/10.1111/0022-1082.00373 
+León, Á., Rubio, G., Serna, G., 2005. Autoregresive conditional volatility, skewness and kurtosis. The Quarterly 
+Review of Economics and Finance 45, 599–618. https://doi.org/10.1016/j.qref.2004.12.020 
+Longstaff, F.A., 2010. The subprime credit crisis and contagion in financial markets. Journal of Financial Economics, 
+The 
+2007-8 
+financial 
+crisis: 
+Lessons 
+from 
+corporate 
+finance 
+97, 
+436–450. 
+https://doi.org/10.1016/j.jfineco.2010.01.002 
+
+
+
+=== 第43页 ===
+ 
+41 
+Morelli, D., Vioto, D., 2020. Assessing the contribution of China’s financial sectors to systemic risk. Journal of 
+Financial Stability 50, 100777. https://doi.org/10.1016/j.jfs.2020.100777 
+Musmeci, N., Nicosia, V., Aste, T., Di Matteo, T., Latora, V., 2017. The Multiplex Dependency Structure of Financial 
+Markets. Complexity 2017, 1–13. https://doi.org/10.1155/2017/9586064 
+Neuberger, A., Payne, R., 2021. The Skewness of the Stock Market over Long Horizons. Rev Financ Stud 34, 1572–
+1616. https://doi.org/10.1093/rfs/hhaa048 
+Nguyen, L.X.D., Mateut, S., Chevapatrakul, T., 2020. Business-linkage volatility spillovers between US industries. 
+Journal of Banking & Finance 111, 105699. https://doi.org/10.1016/j.jbankfin.2019.105699 
+Pham, T.N., Powell, R., Bannigidadmath, D., 2024. Tail risk network analysis of Asian banks. Global Finance Journal 
+62, 101017. https://doi.org/10.1016/j.gfj.2024.101017 
+Phillips, P.C.B., Ouliaris, S., 1988. Testing for cointegration using principal components methods. Journal of 
+Economic Dynamics and Control 12, 205–230. https://doi.org/10.1016/0165-1889(88)90040-1 
+Prokopczuk, M., Stancu, A., Symeonidis, L., 2019. The economic drivers of commodity market volatility. Journal 
+of International Money and Finance 98, 102063. https://doi.org/10.1016/j.jimonfin.2019.102063 
+Ramelli, S., Wagner, A.F., 2020. Feverish Stock Price Reactions to COVID-19*. Review of Corporate Finance 
+Studies 9, 622–655. https://doi.org/10.1093/rcfs/cfaa012 
+Shahzad, S.J.H., Mensi, W., Hammoudeh, S., Balcilar, M., Shahbaz, M., 2018. Distribution specific dependence and 
+causality between industry-level U.S. credit and stock markets. Journal of International Financial Markets, 
+Institutions and Money 52, 114–133. https://doi.org/10.1016/j.intfin.2017.09.025 
+van de Leur, M.C.W., Lucas, A., Seeger, N.J., 2017. Network, market, and book-based systemic risk rankings. 
+Journal of Banking & Finance 78, 84–90. https://doi.org/10.1016/j.jbankfin.2017.02.003 
+Wang, G.-J., Yi, S., Xie, C., Stanley, H.E., 2021. Multilayer information spillover networks: measuring 
+interconnectedness 
+of 
+financial 
+institutions. 
+Quantitative 
+Finance 
+21, 
+1163–1185. 
+https://doi.org/10.1080/14697688.2020.1831047 
+Wasserman, S., Faust, K., 1994. Social Network Analysis [WWW Document]. Cambridge University Press & 
+Assessment. 
+URL 
+https://www.cambridge.org/universitypress/subjects/sociology/sociology-general-
+interest/social-network-analysis-methods-and-applications (accessed 1.13.26). 
+Xu, F., Ma, J., Lu, H., 2022. Group sparse enhanced indexation model with adaptive beta value. Quantitative Finance 
+22, 1905–1926. https://doi.org/10.1080/14697688.2022.2092542 
+Yang, J., Li, Z., Miao, H., 2021. Volatility spillovers in commodity futures markets: A network approach. Journal of 
+Futures Markets 41, 1959–1987. https://doi.org/10.1002/fut.22270 
+Yang, J., Yu, Z., Ma, J., 2019. China’s financial network with international spillovers: A first look. Pacific-Basin 
+Finance Journal 58, 101222. https://doi.org/10.1016/j.pacfin.2019.101222 
+Yang, Z., Zhou, Y., 2017. Quantitative Easing and Volatility Spillovers Across Countries and Asset Classes. 
+Management Science 63, 333–354. https://doi.org/10.1287/mnsc.2015.2305 
+Yao, H., Jiang, X., 2025. The performance of industry risk spillover under extreme events: Evidence from the 
+Chinese 
+stock 
+market. 
+Pacific-Basin 
+Finance 
+Journal 
+91, 
+102719. 
+https://doi.org/10.1016/j.pacfin.2025.102719 
+Yu, M., Hu, X., Zhong, A., 2024. Network centrality, information diffusion and asset pricing. International Review 
+of Financial Analysis 93, 103223. https://doi.org/10.1016/j.irfa.2024.103223 
+Zedda, S., Cannas, G., 2020. Analysis of banks’ systemic risk contribution and contagion determinants through the 
+leave-one-out approach. Journal of Banking & Finance, Challenges to global financial stability: 
+
+
+
+=== 第44页 ===
+ 
+42 
+interconnections,credit risk, business cycle and the role of market participants 112, 105160. 
+https://doi.org/10.1016/j.jbankfin.2017.06.008 
+Zhang, W., Zhuang, X., Wang, J., Lu, Y., 2020. Connectedness and systemic risk spillovers analysis of Chinese 
+sectors based on tail risk network. The North American Journal of Economics and Finance 54, 101248. 
+https://doi.org/10.1016/j.najef.2020.101248 
+Zhao, X., Sun, X., Huang, J., Meng, Q., 2025. Systemic importance of Chinese financial institutions based on the 
+QC-ISAM-ARMA temporal network with coupling. The Quarterly Review of Economics and Finance 101, 
+101979. https://doi.org/10.1016/j.qref.2025.101979 
+Zhou, Y., Wang, D., Nie, Z., 2025. How geopolitical tensions affect China’s systemic financial risk contagion. China 
+Economic Review 90, 102366. https://doi.org/10.1016/j.chieco.2025.102366 
+Zhu, X., Pan, R., Li, G., Liu, Y., Wang, H., 2017. Network vector autoregression. The Annals of Statistics 45, 1096–
+1123. https://doi.org/10.1214/16-AOS1476 
+ 
+Appendix A. List of full names and abbreviations of industries 
+Table A1 
+List of full names and abbreviations of industries 
+Full name 
+Abbreviation 
+Full name 
+Abbreviation 
+Media 
+MD 
+Transportation 
+TP 
+Electrical Equipment 
+EE 
+Coal 
+CL 
+Electronics 
+ET 
+Beauty and Personal Care 
+BC 
+Real Estate 
+RE 
+Agriculture, Forestry, Animal 
+Husbandry, and Fishery 
+AFAHF 
+Textile and Apparel 
+TA 
+Automobile 
+AM 
+Non-Bank Finance 
+NBF 
+Light Manufacturing 
+LM 
+Steel 
+SL 
+Commercial and Retial 
+CR 
+Public Utilities 
+PU 
+Social Services 
+SS 
+National Defense 
+ND 
+Oil and Petrochemical 
+OP 
+Environmental Protection 
+EP 
+Food and Beverage 
+FB 
+Machinery Equipment 
+ME 
+Communications 
+CMC 
+Chemical 
+CM 
+Pharmaceuticals and Biotechnology 
+PB 
+Computer 
+CP 
+Banking 
+BA 
+Household Appliances 
+HA 
+Nonferrous Metals 
+NM 
+Building Materials 
+BM 
+Comprehensive 
+CPH 
+Architectural Ornament 
+AO 
+Note: This table provides the full names and standard abbreviations for all 31 Shenwan Level-1 industries used 
+throughout the analysis. The abbreviations are consistently applied in all tables, figures, and empirical discussions 
+to ensure clarity and conciseness in reporting sector-specific results. 
+ 
+Appendix B. CoVaR estimation procedure using DCC-GARCH models 
+The VaR for market i at quantile q is defined through the conditional probability: 
+
+
+
+=== 第45页 ===
+ 
+43 
+𝑃𝑟(𝑋𝑖≤𝑉𝑎𝑅𝑞𝑖) = 𝑞
+(1) 
+where 𝑋𝑖 represents the return variable of the industrial stock market i, and 𝑉𝑎𝑅𝑞𝑖 denotes the 
+maximum potential loss at the 1-q confidence level. While VaR measures individual market risk 
+exposure, it fails to capture the risk spillover intensity between markets. This limitation motivates 
+the development of CoVaR, which is formally defined through the conditional quantile: 
+𝑃𝑟(𝑋𝑗≤𝐶𝑜𝑉𝑎𝑅𝑞
+𝑗|𝑋𝑖=𝑉𝑎𝑅𝑞𝑖
+| 𝑋𝑖= 𝑉𝑎𝑅𝑞𝑖) = 𝑞
+(2) 
+This formulation quantifies the maximum potential loss in market j at the 1-q confidence level, 
+conditional on market i experiencing an extreme risk event (𝑋𝑖= 𝑉𝑎𝑅𝑞𝑖). 
+This study employs the DCC-GARCH model to analyze the return series of various stock 
+market industries and the overall market, thereby characterizing the dynamic correlations among 
+industries, based on which the CoVaR measures are further calculated. Engle (2002) proposed the 
+DCC-GARCH model (Dynamic Conditional Correlation Generalized Autoregressive Conditional 
+Heteroskedasticity model), which is particularly useful for examining time-varying correlations 
+between assets. The bivariate DCC-GARCH (1,1) model specification is as follows: 
+𝑟𝑡= 𝜇𝑡+ 𝜀𝑡
+(3) 
+𝜇𝑡= 𝐸(𝑟𝑡|𝜑𝑡)
+(4) 
+where 𝑟𝑡 denotes the return series of industries, 𝜇𝑡 represents the intercept term, 𝜀𝑡 is the 
+residual term, and 𝜑𝑡 is the information set available at time t. 
+𝐻𝑡= 𝐷𝑡𝑅𝑡𝐷𝑡
+(5) 
+𝐷𝑡= 𝑑𝑖𝑎𝑔{√ℎ𝑖,𝑡}
+(6) 
+𝑅𝑡= 𝑑𝑖𝑎𝑔𝑄𝑡
+−1/2𝑄𝑡𝑑𝑖𝑎𝑔𝑄𝑡
+−1/2
+(7) 
+𝑄𝑡= (1 −𝛼−𝛽)𝑄+ 𝛼𝜖𝑡−1𝜖𝑡−1
+′
++ 𝛽𝑄𝑡−1
+(8) 
+Here, 𝐻𝑡 is the time-varying conditional covariance matrix, 𝐷𝑡 is the diagonal matrix of 
+time-varying standard deviations obtained from univariate GARCH models, 𝑅𝑡 is the dynamic 
+conditional correlation matrix, 𝑄𝑡 is the conditional covariance matrix, and 𝑑𝑖𝑎𝑔𝑄𝑡
+−1/2 
+represents the conditional standard deviation matrix of standardized residuals. 𝑄= 𝐸[𝜖𝑡−1𝜖𝑡−1
+′
+] 
+denotes the estimated unconditional covariance matrix of standardized residuals, while 𝜖𝑡= 𝐷𝑡
+−1𝜀𝑡 
+are the standardized residuals. 𝛼 and 𝛽 are the two coefficients of the DCC-GARCH model. 𝛼 
+measures the impact of past squared residuals on current conditional correlations, reflecting the 
+“short-term volatility” effect in the market, which represents the immediate market response to 
+shocks. 𝛽 measures the influence of past conditional correlations on current conditional 
+correlations, reflecting the “long-term memory” characteristic of the market, describing the 
+persistence or stationarity of conditional correlations. The constraint 𝛼+ 𝛽≤1 holds, and values 
+closer to 1 indicate stronger dependence of conditional correlations on historical shocks (short-term) 
+and persistence (long-term). 
+Defining the return series of the overall stock market as 𝑖 and that of a specific industry as 𝑗, 
+the conditional Value-at-Risk of series 𝑗 when series 𝑖 experiences a risk loss of 𝑉𝑎𝑅𝑞,𝑡
+𝑖
+=
+Φ−1(𝑞%) can be expressed as: 
+𝐶𝑜𝑉𝑎𝑅𝑞,𝑡
+𝑗|𝑖= Φ−1(𝑞%)𝜎𝑡
+𝑗√1 −(𝜌𝑡
+𝑖𝑗)
+2 + Φ−1(𝑞%)𝜌𝑡
+𝑖𝑗𝜎𝑡
+𝑖
+(9) 
+
+
+
+=== 第46页 ===
+ 
+44 
+where 𝜎𝑡
+𝑖, 𝜎𝑡
+𝑗, and 𝜌𝑡
+𝑖𝑗 are the conditional standard deviations of series 𝑖 and 𝑗, and their 
+dynamic correlation coefficient, respectively, all estimated by the DCC-GARCH model. 
+Appendix C. Multidimensional network coupling method 
+Consider the following equation: 
+𝐴(𝑅𝑡−𝐸[𝑅𝑡]) = 𝛽𝐹𝑡+ 𝜂𝑡 
+(10) 
+where: 𝑅𝑡 represents the returns of each node (industrial stock markets); 𝐹𝑡 denotes the 
+common factor influencing all nodes’ returns, here taken as the first principal component of the 
+nodes’ returns; A is a matrix capturing contemporaneous relationships among nodes’ returns; 𝜂𝑡 is 
+the residual vector. 
+Assuming A is invertible, the reduced-form equivalent equation is: 
+𝑅𝑡= 𝐸[𝑅𝑡] + 𝐴−1𝛽𝐹𝑡+ 𝐴−1𝜂𝑡
+= 𝐸[𝑅𝑡] + 𝛽∗𝐹𝑡+ 𝜂𝑡
+∗
+(11) 
+Here, the reduced-form residuals 𝜂𝑡
+∗= 𝐴−1𝜂𝑡 and coefficients 𝛽∗= 𝐴−1𝛽 are both 
+nonlinear functions of the contemporaneous relationship matrix 𝐴−1 . Drawing on spatial 
+econometric techniques (Billio et al., 2023), 𝐴 is expressed as an affine function of the network: 
+𝐴= 𝐼−∑𝛿𝑑𝑊𝑑
+𝐷
+𝑑=1
+ 
+(12) 
+where the coefficients 𝛿𝑑, which quantify the degree to which each subnetwork 𝑊𝑑 affects 
+returns, serve as subnetwork weights subject to ∑
+𝛿𝑑
+𝐷
+𝑑=1
+= 1. 
+To account for the heterogeneous impact of the network on each node, that is, the 
+heterogeneous effects of the network on each node’s returns, a diagonal matrix 𝑅=
+𝑑𝑖𝑎𝑔(𝜌1,𝜌2, ⋯, 𝜌𝑛) is introduced: 
+𝐴= 𝐼−𝑅∑𝛿𝑑𝑊𝑑
+𝐷
+𝑑=1
+ 
+(13) 
+Thus, a multidimensional coupled network model with 𝑛 nodes and 𝐷 subnetworks is 
+formalized as: 
+[𝐼−𝑅(∑𝛿𝑑𝑊𝑑
+𝐷
+𝑑=1
+)] 𝑅𝑡= 𝐸[𝑅𝑡] + 𝛽𝐹𝑡+ 𝜂𝑡 
+(14) 
+This study adopts an iterative maximum likelihood estimation approach, which represents the 
+established methodology in spatial econometrics, to estimate both the subnetwork weights 𝛿𝑑 and 
+the elements 𝜌𝑛 of the diagonal matrix. The multidimensional coupled network adjacency matrix 
+is: 
+𝑊∗= ∑𝛿𝑑𝑊𝑑
+𝐷
+𝑑=1
+ 
+(15) 
+Appendix D. ADF test results for static analysis 
+Table A2 
+
+
+
+=== 第47页 ===
+ 
+45 
+ADF test results for the logarithmic return series under static analysis 
+Periods 
+the global 
+financial crisis 
+the bull stock 
+market 
+the bear stock 
+market 
+the China-US 
+trade friction 
+the COVID-19 
+pandemic 
+Log Return Series 
+ADF statistic 
+Overall Market 
+-13.677*** 
+-9.992*** 
+-8.358*** 
+-13.671*** 
+-9.064*** 
+TP 
+-13.619*** 
+-9.149*** 
+-8.352*** 
+-13.517*** 
+-9.095*** 
+MD 
+-14.098*** 
+-10.598*** 
+-8.339*** 
+-13.310*** 
+-10.111*** 
+PU 
+-13.946*** 
+-11.050*** 
+-8.134*** 
+-12.911*** 
+-8.972*** 
+AFAHF 
+-13.871*** 
+-11.545*** 
+-8.963*** 
+-13.011*** 
+-8.789*** 
+PB 
+-14.940*** 
+-11.633*** 
+-8.517*** 
+-13.906*** 
+-10.166*** 
+CR 
+-14.370*** 
+-10.660*** 
+-8.088*** 
+-12.938*** 
+-9.238*** 
+ND 
+-13.780*** 
+-10.134*** 
+-8.436*** 
+-13.089*** 
+-10.341*** 
+CM 
+-13.997*** 
+-10.555*** 
+-8.465*** 
+-12.944*** 
+-9.199*** 
+HA 
+-14.270*** 
+-10.960*** 
+-9.032*** 
+-13.795*** 
+-9.362*** 
+BM 
+-13.947*** 
+-9.691*** 
+-8.686*** 
+-13.096*** 
+-9.153*** 
+AO 
+-14.428*** 
+-10.000*** 
+-8.210*** 
+-12.786*** 
+-9.562*** 
+RE 
+-13.527*** 
+-10.611*** 
+-8.050*** 
+-12.854*** 
+-8.959*** 
+NM 
+-13.150*** 
+-9.784*** 
+-8.086*** 
+-12.570*** 
+-9.121*** 
+ME 
+-14.027*** 
+-9.923*** 
+-8.702*** 
+-12.947*** 
+-9.444*** 
+AM 
+-14.194*** 
+-9.825*** 
+-8.920*** 
+-13.795*** 
+-9.236*** 
+CL 
+-13.762*** 
+-9.574*** 
+-8.367*** 
+-12.906*** 
+-9.142*** 
+EP 
+-13.755*** 
+-10.586*** 
+-8.571*** 
+-12.245*** 
+-9.646*** 
+EE 
+-14.484*** 
+-10.199*** 
+-8.230*** 
+-12.762*** 
+-9.790*** 
+ET 
+-14.148*** 
+-11.319*** 
+-8.450*** 
+-13.182*** 
+-10.006*** 
+OP 
+-13.506*** 
+-10.301*** 
+-8.495*** 
+-13.523*** 
+-8.661*** 
+SS 
+-13.890*** 
+-10.699*** 
+-9.188*** 
+-13.079*** 
+-9.755*** 
+TA 
+-13.759*** 
+-10.137*** 
+-8.467*** 
+-12.961*** 
+-8.745*** 
+CPH 
+-13.809*** 
+-10.561*** 
+-8.058*** 
+-12.812*** 
+-9.620*** 
+CP 
+-14.099*** 
+-10.971*** 
+-8.216*** 
+-13.367*** 
+-10.356*** 
+LM 
+-13.802*** 
+-10.668*** 
+-8.354*** 
+-12.832*** 
+-9.394*** 
+CMC 
+-13.904*** 
+-10.078*** 
+-8.235*** 
+-12.459*** 
+-10.247*** 
+SL 
+-14.461*** 
+-9.629*** 
+-8.613*** 
+-12.432*** 
+-9.383*** 
+NBF 
+-14.107*** 
+-11.134*** 
+-8.695*** 
+-13.917*** 
+-9.612*** 
+FB 
+-14.361*** 
+-10.342*** 
+-8.956*** 
+-14.070*** 
+-9.097*** 
+BC 
+-14.177*** 
+-10.630*** 
+-8.289*** 
+-13.668*** 
+-10.790*** 
+BA 
+-13.878*** 
+-10.046*** 
+-8.378*** 
+-13.417*** 
+-9.388*** 
+Note: *** indicates significance at the 1% level (p ≤ 0.01), ** indicates significance at the 5% level (p ≤ 0.05), 
+and * indicates significance at the 10% level (p ≤ 0.10). 
+
+

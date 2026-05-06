@@ -1,1 +1,2 @@
 src/data/dy_all_ret.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text

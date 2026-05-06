@@ -1,50 +1,86 @@
 # ============================================================================
-# TVP-VAR-DY 溢出网络模型
-# 导出全部时变切片网络，用于滚动窗口因子模型
-# 数据频率: 周度 (由 prepare_data.py 生成的周度收益率/波动率)
+# TVP-VAR DY Spillover for Jump-Decomposed Volatility (10 Industries, Daily)
+# Input:  LM jump detection results (data/raw/lm_results/)
+# Output: 3 stacked adjacency matrices with tvp_ prefix
 # ============================================================================
 
-# 加载必要的包
 required_packages <- c("readr", "xts", "zoo")
-for(pkg in required_packages){
-  if(!require(pkg, character.only = TRUE)){
+for (pkg in required_packages) {
+  if (!require(pkg, character.only = TRUE)) {
     install.packages(pkg)
     library(pkg, character.only = TRUE)
   }
 }
 
-# 安装 ConnectednessApproach
-if(!require("ConnectednessApproach")){
+if (!require("ConnectednessApproach")) {
   library(devtools)
   install_github("GabauerDavid/ConnectednessApproach")
   library(ConnectednessApproach)
 }
 
 # -----------------------------------------------------------------------------
-# 1. 加载数据
+# Config
 # -----------------------------------------------------------------------------
-load_data <- function(data_type = "returns", data_dir = "D:/桌面数据/工作论文/带耦合多层网络/src/data/processed") {
-  file_path <- file.path(data_dir,
-                         ifelse(data_type == "returns", "industry_returns.csv", "industry_volatility.csv"))
-  data <- read.csv(file_path, stringsAsFactors = FALSE)
-  data$date <- as.Date(data$date)
-  data_xts <- xts(data[, -1], order.by = data$date)
+PROJECT_DIR <- "D:/桌面数据/工作论文/带耦合多层网络"
+LM_DIR      <- file.path(PROJECT_DIR, "data", "raw", "lm_results")
+OUTPUT_DIR  <- LM_DIR
 
-  # 加载行业名称
-  names_file <- file.path(data_dir, "industry_names.txt")
-  if(file.exists(names_file)){
-    industries <- readLines(names_file, encoding = "UTF-8")
-    industries <- gsub("^\ufeff", "", industries)
-    colnames(data_xts) <- industries
+CODES <- sprintf("%06d", 32:41)
+
+NLAG  <- 1
+NFORE <- 10
+KEEP_EDGE_RATIO <- 0.25
+
+# -----------------------------------------------------------------------------
+# 1. Load LM results: extract one column from 10 CSVs -> xts
+# -----------------------------------------------------------------------------
+load_lm_data <- function(col_name, data_dir = LM_DIR, codes = CODES) {
+  frames <- list()
+  for (code in codes) {
+    path <- file.path(data_dir, sprintf("%s_lm_har.csv", code))
+    df <- read.csv(path, stringsAsFactors = FALSE)
+    col_idx <- which(colnames(df) == col_name)
+    if (length(col_idx) == 0) stop(sprintf("Column '%s' not found in %s", col_name, path))
+    frames[[code]] <- df[, c(1, col_idx)]
+    colnames(frames[[code]]) <- c("date", code)
   }
 
-  cat(sprintf("Loaded %s: %d obs x %d industries\n", data_type, nrow(data_xts), ncol(data_xts)))
-  return(na.omit(data_xts))
+  merged <- frames[[1]]
+  for (i in 2:length(codes)) {
+    merged <- merge(merged, frames[[codes[i]]], by = "date", all = TRUE)
+  }
+
+  merged$date <- as.Date(as.character(merged$date), format = "%Y%m%d")
+  merged <- merged[order(merged$date), ]
+  data_xts <- xts(merged[, -1], order.by = merged$date)
+  data_xts[!is.finite(data_xts)] <- NA
+  data_xts <- na.omit(data_xts)
+
+  cat(sprintf("Loaded '%s': %d obs x %d industries, %s to %s\n",
+              col_name, nrow(data_xts), ncol(data_xts),
+              index(data_xts)[1], index(data_xts)[nrow(data_xts)]))
+  return(data_xts)
 }
 
 # -----------------------------------------------------------------------------
-# 2. 行标准化
+# 2. Sparsification and row normalization utilities
 # -----------------------------------------------------------------------------
+keep_strong_edges <- function(W, keep_ratio = KEEP_EDGE_RATIO) {
+  W_sparse <- W
+  diag(W_sparse) <- 0
+  off_diag <- W_sparse[row(W_sparse) != col(W_sparse)]
+  positive_edges <- off_diag[is.finite(off_diag) & off_diag > 0]
+
+  if (length(positive_edges) == 0) {
+    return(W_sparse)
+  }
+
+  cutoff <- as.numeric(quantile(positive_edges, probs = 1 - keep_ratio, names = FALSE, type = 7))
+  W_sparse[W_sparse < cutoff] <- 0
+  diag(W_sparse) <- 0
+  return(W_sparse)
+}
+
 row_normalize <- function(W) {
   W_norm <- W
   diag(W_norm) <- 0
@@ -54,60 +90,60 @@ row_normalize <- function(W) {
 }
 
 # -----------------------------------------------------------------------------
-# 3. 主函数：导出全部时变邻接矩阵
+# 3. Run TVP-VAR DY and export stacked adjacency matrices
 # -----------------------------------------------------------------------------
-run_dy <- function(data_type = "returns",
-                   output_dir = "D:/桌面数据/工作论文/带耦合多层网络/src/data/processed") {
+run_dy <- function(data_xts, label, output_dir = OUTPUT_DIR) {
 
-  cat(paste(rep("=", 60), collapse=""), "\n")
-  cat(sprintf("DY Analysis: %s\n", data_type))
-  cat(paste(rep("=", 60), collapse=""), "\n")
+  cat(paste(rep("=", 60), collapse = ""), "\n")
+  cat(sprintf("TVP-VAR DY: %s\n", label))
+  cat(sprintf("  nlag=%d, nfore=%d\n", NLAG, NFORE))
+  cat(paste(rep("=", 60), collapse = ""), "\n")
 
-  # 加载数据
-  data <- load_data(data_type, output_dir)
+  dca <- ConnectednessApproach(
+    data_xts,
+    nlag  = NLAG,
+    nfore = NFORE,
+    model = "TVP-VAR",
+    connectedness = "Time",
+    VAR_config = list(
+      TVPVAR = list(kappa1 = 0.99, kappa2 = 0.96, prior = "BayesPrior")
+    )
+  )
 
-  # 运行TVP-VAR (周度数据: nlag=1, nfore=4 ≈ 1个月预测步长)
-  cat("\nEstimating TVP-VAR (weekly data)...\n")
-  dca <- ConnectednessApproach(data,
-                               nlag = 1,
-                               nfore = 4,
-                               model = "TVP-VAR",
-                               connectedness = "Time",
-                               VAR_config = list(TVPVAR = list(kappa1 = 0.99, kappa2 = 0.96, prior = "BayesPrior")))
-
-  CT <- dca$CT
-  K  <- dim(CT)[1]
+  CT    <- dca$CT
+  K     <- dim(CT)[1]
   T_net <- dim(CT)[3]
 
-  # 日期映射：CT的时间维度对应原始数据的最后 T_net 个日期
-  all_dates <- index(data)
-  offset <- length(all_dates) - T_net
+  all_dates <- index(data_xts)
+  offset    <- length(all_dates) - T_net
   net_dates <- all_dates[(offset + 1):length(all_dates)]
 
   cat(sprintf("Network: %d x %d x %d, dates: %s to %s (offset=%d)\n",
               K, K, T_net, net_dates[1], net_dates[T_net], offset))
 
-  # 堆叠所有邻接矩阵：(K * T_net) x K
-  suffix <- ifelse(data_type == "returns", "ret", "vol")
-  cat(sprintf("Stacking & normalizing %d adjacency matrices...\n", T_net))
-
   stacked <- matrix(0, nrow = K * T_net, ncol = K)
+  stacked_sparse <- matrix(0, nrow = K * T_net, ncol = K)
   for (t in 1:T_net) {
-    adj <- CT[,,t]
+    adj <- CT[, , t]
     diag(adj) <- 0
-    stacked[((t-1)*K + 1):(t*K), ] <- row_normalize(adj)
+    adj_sparse <- keep_strong_edges(adj, KEEP_EDGE_RATIO)
+    stacked[((t - 1) * K + 1):(t * K), ] <- adj
+    stacked_sparse[((t - 1) * K + 1):(t * K), ] <- adj_sparse
   }
 
-  # 保存堆叠矩阵
-  stacked_file <- file.path(output_dir, sprintf("dy_all_%s.csv", suffix))
+  stacked_file <- file.path(output_dir, sprintf("dy_tvp_all_%s.csv", label))
   write.table(stacked, stacked_file, sep = ",", row.names = FALSE, col.names = FALSE)
 
-  # 保存日期映射
-  dates_df <- data.frame(t_index = 1:T_net, date = as.character(net_dates))
-  dates_file <- file.path(output_dir, sprintf("dy_dates_%s.csv", suffix))
+  sparse_file <- file.path(output_dir, sprintf("dy_tvp_top25_all_%s.csv", label))
+  write.table(stacked_sparse, sparse_file, sep = ",", row.names = FALSE, col.names = FALSE)
+
+  dates_df   <- data.frame(t_index = 1:T_net, date = as.character(net_dates))
+  dates_file <- file.path(output_dir, sprintf("dy_tvp_dates_%s.csv", label))
   write.csv(dates_df, dates_file, row.names = FALSE)
 
   cat(sprintf("Saved: %s (%d rows x %d cols)\n", basename(stacked_file), K * T_net, K))
+  cat(sprintf("Saved: %s (%d rows x %d cols, top %.0f%% edges)\n",
+              basename(sparse_file), K * T_net, K, KEEP_EDGE_RATIO * 100))
   cat(sprintf("Saved: %s (%d dates)\n", basename(dates_file), T_net))
   cat("Done!\n\n")
 
@@ -115,7 +151,8 @@ run_dy <- function(data_type = "returns",
 }
 
 # -----------------------------------------------------------------------------
-# 4. 运行
+# 4. Run for 3 volatility layers
 # -----------------------------------------------------------------------------
-result_ret <- run_dy("returns")           # 收益率网络
-result_vol <- run_dy("volatility")        # 波动率网络
+result_csv     <- run_dy(load_lm_data("CSVt_d"),       "csv")
+result_jsv_pos <- run_dy(load_lm_data("JSVt_zheng_d"), "jsv_pos")
+result_jsv_neg <- run_dy(load_lm_data("JSVt_fu_d"),    "jsv_neg")
